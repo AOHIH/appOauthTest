@@ -5,55 +5,64 @@
 			"id":1,
 			"url":"https://raw.githubusercontent.com/AOHIH/appOauthTest/master/xianyue/pic/iv_icon_1.png",
 			"name":"app1",
-			"run":true
+			"run":true,
+			"packageName":"xxx.xxx.xxx"
 		},
 		{
 			"id":2,
 			"url":"https://raw.githubusercontent.com/AOHIH/appOauthTest/master/xianyue/pic/iv_icon_2.png",
 			"name":"app2",
-			"run":true
+			"run":true,
+			"packageName":"xxx.xxx.xxx"
 		},
 		{
 			"id":3,
 			"url":"https://raw.githubusercontent.com/AOHIH/appOauthTest/master/xianyue/pic/iv_icon_3.png",
 			"name":"app3",
-			"run":true
+			"run":true,
+			"packageName":"xxx.xxx.xxx"
 		},
 		{
 			"id":4,
 			"url":"https://raw.githubusercontent.com/AOHIH/appOauthTest/master/xianyue/pic/iv_icon_4.png",
 			"name":"app4",
-			"run":true
+			"run":true,
+			"packageName":"xxx.xxx.xxx"
 		},
 		{
 			"id":5,
 			"url":"https://raw.githubusercontent.com/AOHIH/appOauthTest/master/xianyue/pic/iv_icon_5.png",
 			"name":"app5",
-			"run":true
+			"run":true,
+			"packageName":"xxx.xxx.xxx"
 		},
 		{
 			"id":6,
 			"url":"https://raw.githubusercontent.com/AOHIH/appOauthTest/master/xianyue/pic/iv_icon_6.png",
 			"name":"app6",
-			"run":true
+			"run":true,
+			"packageName":"xxx.xxx.xxx"
 		},
 		{
 			"id":7,
 			"url":"https://raw.githubusercontent.com/AOHIH/appOauthTest/master/xianyue/pic/iv_icon_7.png",
 			"name":"app7",
-			"run":true
+			"run":true,
+			"packageName":"xxx.xxx.xxx"
 		},
 		{
 			"id":8,
 			"url":"https://raw.githubusercontent.com/AOHIH/appOauthTest/master/xianyue/pic/iv_icon_8.png",
 			"name":"app8",
-			"run":true
+			"run":true,
+			"packageName":"xxx.xxx.xxx"
 		},
 		{
 			"id":9,
 			"url":"https://raw.githubusercontent.com/AOHIH/appOauthTest/master/xianyue/pic/iv_icon_9.png",
 			"name":"app9",
-			"run":true
+			"run":true,
+			"packageName":"xxx.xxx.xxx"
 		}
 		
 	]
