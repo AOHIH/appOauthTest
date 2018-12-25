@@ -10,10 +10,24 @@
 		},
 		{
 			"id":2,
-			"url":"https://raw.githubusercontent.com/AOHIH/appOauthTest/master/xianyue/pic/iv_icon_2.png",
-			"name":"app2",
+			"url":"https://raw.githubusercontent.com/AOHIH/appOauthTest/master/xianyue/pic/iv_icon_zhongqingkandian.png",
+			"name":"中青看点",
 			"run":true,
-			"packageName":"xxx.xxx.xxx"
+			"packageName":"cn.youth.news"
+		},
+		{
+			"id":3,
+			"url":"https://raw.githubusercontent.com/AOHIH/appOauthTest/master/xianyue/pic/iv_icon_niuniutoutiao.png",
+			"name":"牛牛头条",
+			"run":true,
+			"packageName":"com.huolea.bull"
+		},
+		{
+			"id":4,
+			"url":"https://raw.githubusercontent.com/AOHIH/appOauthTest/master/xianyue/pic/iv_icon_aishangtoutiao.png",
+			"name":"爱上头条",
+			"run":true,
+			"packageName":"com.aladdin.asttnews"
 		}
 		
 		
