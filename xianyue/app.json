@@ -6,21 +6,60 @@
 			"url":"https://raw.githubusercontent.com/AOHIH/appOauthTest/master/xianyue/pic/iv_icon_qutoutiao.png",
 			"name":"趣头条",
 			"run":true,
-			"packageName":"com.jifen.qukan"
+			"packageName":"com.jifen.qukan",
+			"stop":"am force-stop com.jifen.qukan",
+			"start":"am start -n com.jifen.qukan/com.jifen.qkbase.main.MainActivity",
+			"dumpsys":"dumpsys window | grep mCurrentFocus",
+			"back":"input keyevent 4",
+			"tap":"input tap",
+			"swipeUp":"input swipe 300 1200 300 500",
+			"swipeDown":"input swipe 300 500 300 1200",
+			"dump":"uiautomator dump ",
+			"xmlPath":"/storage/emulated/legacy/qukan.xml",
+			"resourceId":"com.jifen.qukan:id/ol",
+			"newsId":"com.jifen.qukan:id/ol",
+			"others":["广告","置顶","百度","com.jifen.qukan:id/zc"],
+			"ins":["com.jifen.qukan:id/nx","com.jifen.qukan:id/l5","com.jifen.qukan:id/nn"]
 		},
 		{
 			"id":2,
 			"url":"https://raw.githubusercontent.com/AOHIH/appOauthTest/master/xianyue/pic/iv_icon_zhongqingkandian.png",
 			"name":"中青看点",
 			"run":true,
-			"packageName":"cn.youth.news"
+			"packageName":"cn.youth.news",
+			"stop":"am force-stop cn.youth.news",
+			"start":"am start -n cn.youth.news/com.weishang.wxrd.activity.SplashActivity",
+			"dumpsys":"dumpsys window | grep mCurrentFocus",
+			"back":"input keyevent 4",
+			"tap":"input tap",
+			"swipeUp":"input swipe 300 1200 300 500",
+			"swipeDown":"input swipe 300 500 300 1200",
+			"dump":"uiautomator dump ",
+			"xmlPath":"/storage/emulated/legacy/youth.xml",
+			"resourceId":"cn.youth.news:id/lr_article_item",
+			"newsId":"com.jifen.qukan:id/ol",
+			"others":["广告","置顶","百度"],
+			"ins":["com.jifen.qukan:id/nx","com.jifen.qukan:id/l5","com.jifen.qukan:id/nn"]
 		},
 		{
 			"id":3,
 			"url":"https://raw.githubusercontent.com/AOHIH/appOauthTest/master/xianyue/pic/iv_icon_niuniutoutiao.png",
 			"name":"牛牛头条",
 			"run":true,
-			"packageName":"com.huolea.bull"
+			"packageName":"com.huolea.bull",
+			"stop":"am force-stop com.huolea.bull",
+			"start":"am start -n com.huolea.bull/com.huolea.bull.page.SplashActivity",
+			"dumpsys":"dumpsys window | grep mCurrentFocus",
+			"back":"input keyevent 4",
+			"tap":"input tap",
+			"swipeUp":"input swipe 300 1200 300 500",
+			"swipeDown":"input swipe 300 500 300 1200",
+			"dump":"uiautomator dump ",
+			"xmlPath":"/storage/emulated/legacy/huolea.xml",
+			"resourceId":"com.huolea.bull:id/title_tv",
+			"newsId":"com.jifen.qukan:id/ol",
+			"others":["广告","置顶","百度"],
+			"ins":["com.jifen.qukan:id/nx","com.jifen.qukan:id/l5","com.jifen.qukan:id/nn"]
 		},
 		{
 			"id":4,
@@ -28,6 +67,19 @@
 			"name":"爱上头条",
 			"run":true,
 			"packageName":"com.aladdin.asttnews"
+			"stop":"am force-stop com.aladdin.asttnews",
+			"start":"am start -n com.aladdin.asttnews/com.aladdin.asttnews.controller.SplashActivity",
+			"dumpsys":"dumpsys window | grep mCurrentFocus",
+			"back":"input keyevent 4",
+			"tap":"input tap",
+			"swipeUp":"input swipe 300 1200 300 500",
+			"swipeDown":"input swipe 300 500 300 1200",
+			"dump":"uiautomator dump ",
+			"xmlPath":"/storage/emulated/legacy/asttnews.xml",
+			"resourceId":"com.aladdin.asttnews:id/new_title",
+			"newsId":"com.jifen.qukan:id/ol",
+			"others":["广告","置顶","百度","com.aladdin.asttnews:id/tv_time"],
+			"ins":["com.jifen.qukan:id/nx","com.jifen.qukan:id/l5","com.jifen.qukan:id/nn"]
 		}
 		
 		
