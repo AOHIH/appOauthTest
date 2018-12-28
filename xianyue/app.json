@@ -19,7 +19,10 @@
 			"resourceId":"com.jifen.qukan:id/ol",
 			"newsId":"com.jifen.qukan:id/ol",
 			"others":["广告","置顶","百度","com.jifen.qukan:id/zc"],
-			"ins":["com.jifen.qukan:id/nx","com.jifen.qukan:id/l5","com.jifen.qukan:id/nn"]
+			"ins":["com.jifen.qukan:id/nx","com.jifen.qukan:id/l5","com.jifen.qukan:id/nn"],
+			"upCount":8,
+			"downCount":8,
+			"sleepSeconds":1
 		},
 		{
 			"id":2,
@@ -39,7 +42,10 @@
 			"resourceId":"cn.youth.news:id/lr_article_item",
 			"newsId":"com.jifen.qukan:id/ol",
 			"others":["广告","置顶","百度"],
-			"ins":["com.jifen.qukan:id/nx","com.jifen.qukan:id/l5","com.jifen.qukan:id/nn"]
+			"ins":["com.jifen.qukan:id/nx","com.jifen.qukan:id/l5","com.jifen.qukan:id/nn"],
+			"upCount":8,
+			"downCount":8,
+			"sleepSeconds":1
 		},
 		{
 			"id":3,
@@ -59,7 +65,10 @@
 			"resourceId":"com.huolea.bull:id/title_tv",
 			"newsId":"com.jifen.qukan:id/ol",
 			"others":["广告","置顶","百度"],
-			"ins":["com.jifen.qukan:id/nx","com.jifen.qukan:id/l5","com.jifen.qukan:id/nn"]
+			"ins":["com.jifen.qukan:id/nx","com.jifen.qukan:id/l5","com.jifen.qukan:id/nn"],
+			"upCount":8,
+			"downCount":8,
+			"sleepSeconds":1
 		},
 		{
 			"id":4,
@@ -79,7 +88,10 @@
 			"resourceId":"com.aladdin.asttnews:id/new_title",
 			"newsId":"com.jifen.qukan:id/ol",
 			"others":["广告","置顶","百度","com.aladdin.asttnews:id/tv_time"],
-			"ins":["com.jifen.qukan:id/nx","com.jifen.qukan:id/l5","com.jifen.qukan:id/nn"]
+			"ins":["com.jifen.qukan:id/nx","com.jifen.qukan:id/l5","com.jifen.qukan:id/nn"],
+			"upCount":8,
+			"downCount":8,
+			"sleepSeconds":1
 		}
 		
 		
