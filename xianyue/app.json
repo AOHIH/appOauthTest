@@ -66,7 +66,7 @@
 			"url":"https://raw.githubusercontent.com/AOHIH/appOauthTest/master/xianyue/pic/iv_icon_aishangtoutiao.png",
 			"name":"爱上头条",
 			"run":true,
-			"packageName":"com.aladdin.asttnews"
+			"packageName":"com.aladdin.asttnews",
 			"stop":"am force-stop com.aladdin.asttnews",
 			"start":"am start -n com.aladdin.asttnews/com.aladdin.asttnews.controller.SplashActivity",
 			"dumpsys":"dumpsys window | grep mCurrentFocus",
