@@ -22,7 +22,9 @@
 			"ins":["com.jifen.qukan:id/nx","com.jifen.qukan:id/l5","com.jifen.qukan:id/nn"],
 			"upCount":8,
 			"downCount":8,
-			"sleepSeconds":1
+			"sleepSeconds":1,
+			"swipeList":"input swipe 300 1400 300 300",
+			"clickCount":5
 		},
 		{
 			"id":2,
@@ -45,7 +47,9 @@
 			"ins":["com.jifen.qukan:id/nx","com.jifen.qukan:id/l5","com.jifen.qukan:id/nn"],
 			"upCount":8,
 			"downCount":8,
-			"sleepSeconds":1
+			"sleepSeconds":1,
+			"swipeList":"input swipe 300 1400 300 300",
+			"clickCount":5
 		},
 		{
 			"id":3,
@@ -68,7 +72,9 @@
 			"ins":["com.jifen.qukan:id/nx","com.jifen.qukan:id/l5","com.jifen.qukan:id/nn"],
 			"upCount":8,
 			"downCount":8,
-			"sleepSeconds":1
+			"sleepSeconds":1,
+			"swipeList":"input swipe 300 1400 300 300",
+			"clickCount":5
 		},
 		{
 			"id":4,
@@ -91,7 +97,9 @@
 			"ins":["com.jifen.qukan:id/nx","com.jifen.qukan:id/l5","com.jifen.qukan:id/nn"],
 			"upCount":8,
 			"downCount":8,
-			"sleepSeconds":1
+			"sleepSeconds":1,
+			"swipeList":"input swipe 300 1400 300 300",
+			"clickCount":5
 		}
 		
 		
