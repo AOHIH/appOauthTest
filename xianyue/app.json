@@ -44,7 +44,7 @@
 			"resourceId":"cn.youth.news:id/lr_article_item",
 			"newsId":"cn.youth.news:id/tv_home_tab",
 			"others":["广告","置顶","百度"],
-			"ins":["cn.youth.news:id/custom_progress5"],
+			"ins":["cn.youth.news:id/custom_progress5","cn.youth.news:id/tv_comment"],
 			"upCount":8,
 			"downCount":8,
 			"sleepSeconds":1,
