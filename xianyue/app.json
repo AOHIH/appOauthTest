@@ -27,7 +27,8 @@
 			"clickCount":5,
 			"refreshNewSleepSeconds":10,
 			"startSleepSeconds":20,
-			"closeId":"com.jifen.qukan:id/close"
+			"closeId":"com.jifen.qukan:id/close",
+			"more":""
 		},
 		{
 			"id":2,
@@ -55,7 +56,8 @@
 			"clickCount":5,
 			"refreshNewSleepSeconds":10,
 			"startSleepSeconds":20,
-			"closeId":"cn.youth.news:id/close"
+			"closeId":"cn.youth.news:id/close",
+			"more":""
 		},
 		{
 			"id":3,
@@ -83,7 +85,8 @@
 			"clickCount":5,
 			"refreshNewSleepSeconds":10,
 			"startSleepSeconds":25,
-			"closeId":"com.huolea.bull:id/id_dialog_login_close"
+			"closeId":"com.huolea.bull:id/id_dialog_login_close",
+			"more":""
 		},
 		{
 			"id":4,
@@ -111,7 +114,37 @@
 			"clickCount":5,
 			"refreshNewSleepSeconds":10,
 			"startSleepSeconds":20,
-			"closeId":"com.aladdin.asttnews:id/close"
+			"closeId":"com.aladdin.asttnews:id/close",
+			"more":""
+		},
+		{
+			"id":5,
+			"url":"https://raw.githubusercontent.com/AOHIH/appOauthTest/master/xianyue/pic/iv_icon_taozuiredian.png",
+			"name":"淘最热点",
+			"run":true,
+			"packageName":"com.maihan.tredian",
+			"stop":"am force-stop com.maihan.tredian",
+			"start":"am start -n com.maihan.tredian/com.maihan.tredian.activity.MainActivity",
+			"dumpsys":"dumpsys window | grep mCurrentFocus",
+			"back":"input keyevent 4",
+			"tap":"input tap",
+			"swipeUp":"input swipe 300 1200 300 500",
+			"swipeDown":"input swipe 300 500 300 1200",
+			"dump":"uiautomator dump --compressed ",
+			"xmlPath":"/storage/emulated/legacy/tredian.xml",
+			"resourceId":"com.aladdin.asttnews:id/new_title",
+			"newsId":"com.maihan.tredian:id/main_refresh_tv",
+			"others":["广告","置顶","百度","com.aladdin.asttnews:id/tv_time"],
+			"ins":["com.maihan.tredian:id/detail_goto_comment_tv"],
+			"upCount":15,
+			"downCount":1,
+			"sleepSeconds":1,
+			"swipeList":"input swipe 300 1400 300 300",
+			"clickCount":5,
+			"refreshNewSleepSeconds":10,
+			"startSleepSeconds":20,
+			"closeId":"com.aladdin.asttnews:id/close",
+			"more":"btn-show-more"
 		}
 		
 		
