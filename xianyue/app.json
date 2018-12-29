@@ -24,7 +24,9 @@
 			"downCount":8,
 			"sleepSeconds":1,
 			"swipeList":"input swipe 300 1400 300 300",
-			"clickCount":5
+			"clickCount":5,
+			"refreshNewSleepSeconds":5,
+			"startSleepSeconds":10
 		},
 		{
 			"id":2,
@@ -49,7 +51,9 @@
 			"downCount":8,
 			"sleepSeconds":1,
 			"swipeList":"input swipe 300 1400 300 300",
-			"clickCount":5
+			"clickCount":5,
+			"refreshNewSleepSeconds":5,
+			"startSleepSeconds":10
 		},
 		{
 			"id":3,
@@ -74,7 +78,9 @@
 			"downCount":8,
 			"sleepSeconds":1,
 			"swipeList":"input swipe 300 1400 300 300",
-			"clickCount":5
+			"clickCount":5,
+			"refreshNewSleepSeconds":5,
+			"startSleepSeconds":10
 		},
 		{
 			"id":4,
@@ -99,7 +105,9 @@
 			"downCount":8,
 			"sleepSeconds":1,
 			"swipeList":"input swipe 300 1400 300 300",
-			"clickCount":5
+			"clickCount":5,
+			"refreshNewSleepSeconds":5,
+			"startSleepSeconds":10
 		}
 		
 		
