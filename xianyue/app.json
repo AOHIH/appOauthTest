@@ -27,7 +27,7 @@
 			"clickCount":5,
 			"refreshNewSleepSeconds":10,
 			"startSleepSeconds":20,
-			"closeId":""
+			"closeId":"com.jifen.qukan:id/close"
 		},
 		{
 			"id":2,
@@ -55,7 +55,7 @@
 			"clickCount":5,
 			"refreshNewSleepSeconds":10,
 			"startSleepSeconds":20,
-			"closeId":""
+			"closeId":"cn.youth.news:id/close"
 		},
 		{
 			"id":3,
@@ -83,7 +83,7 @@
 			"clickCount":5,
 			"refreshNewSleepSeconds":10,
 			"startSleepSeconds":20,
-			"closeId":""
+			"closeId":"com.huolea.bull:id/close"
 		},
 		{
 			"id":4,
