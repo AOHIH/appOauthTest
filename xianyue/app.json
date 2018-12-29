@@ -26,7 +26,8 @@
 			"swipeList":"input swipe 300 1400 300 300",
 			"clickCount":5,
 			"refreshNewSleepSeconds":10,
-			"startSleepSeconds":20
+			"startSleepSeconds":20,
+			"closeId":""
 		},
 		{
 			"id":2,
@@ -53,7 +54,8 @@
 			"swipeList":"input swipe 300 1400 300 300",
 			"clickCount":5,
 			"refreshNewSleepSeconds":10,
-			"startSleepSeconds":20
+			"startSleepSeconds":20,
+			"closeId":""
 		},
 		{
 			"id":3,
@@ -80,7 +82,8 @@
 			"swipeList":"input swipe 300 1400 300 300",
 			"clickCount":5,
 			"refreshNewSleepSeconds":10,
-			"startSleepSeconds":20
+			"startSleepSeconds":20,
+			"closeId":""
 		},
 		{
 			"id":4,
@@ -107,7 +110,8 @@
 			"swipeList":"input swipe 300 1400 300 300",
 			"clickCount":5,
 			"refreshNewSleepSeconds":10,
-			"startSleepSeconds":20
+			"startSleepSeconds":20,
+			"closeId":"com.aladdin.asttnews:id/close"
 		}
 		
 		
