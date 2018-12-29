@@ -98,7 +98,7 @@
 			"tap":"input tap",
 			"swipeUp":"input swipe 300 1200 300 500 500",
 			"swipeDown":"input swipe 300 500 300 1200 500",
-			"dump":"uiautomator dump ",
+			"dump":"uiautomator dump --compressed ",
 			"xmlPath":"/storage/emulated/legacy/asttnews.xml",
 			"resourceId":"com.aladdin.asttnews:id/new_title",
 			"newsId":"com.aladdin.asttnews:id/tv_title",
