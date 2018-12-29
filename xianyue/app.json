@@ -28,7 +28,9 @@
 			"refreshNewSleepSeconds":10,
 			"startSleepSeconds":20,
 			"closeId":"com.jifen.qukan:id/close",
-			"more":""
+			"more":"",
+			"refreshName":"resource-id",
+			"refreshValue":"com.jifen.qukan:id/ke"
 		},
 		{
 			"id":2,
@@ -57,7 +59,9 @@
 			"refreshNewSleepSeconds":10,
 			"startSleepSeconds":20,
 			"closeId":"cn.youth.news:id/close",
-			"more":""
+			"more":"",
+			"refreshName":"resource-id",
+			"refreshValue":"cn.youth.news:id/tv_home_tab"
 		},
 		{
 			"id":3,
@@ -86,7 +90,9 @@
 			"refreshNewSleepSeconds":10,
 			"startSleepSeconds":25,
 			"closeId":"com.huolea.bull:id/id_dialog_login_close",
-			"more":""
+			"more":"",
+			"refreshName":"resource-id",
+			"refreshValue":"com.huolea.bull:id/id_layout_navigation_news_text"
 		},
 		{
 			"id":4,
@@ -115,7 +121,9 @@
 			"refreshNewSleepSeconds":10,
 			"startSleepSeconds":20,
 			"closeId":"com.aladdin.asttnews:id/close",
-			"more":""
+			"more":"",
+			"refreshName":"resource-id",
+			"refreshValue":"com.aladdin.asttnews:id/tv_title"
 		},
 		{
 			"id":5,
@@ -144,7 +152,40 @@
 			"refreshNewSleepSeconds":10,
 			"startSleepSeconds":20,
 			"closeId":"com.aladdin.asttnews:id/close",
-			"more":"btn-show-more"
+			"more":"btn-show-more",
+			"refreshName":"resource-id",
+			"refreshValue":"com.maihan.tredian:id/main_refresh_tv"
+		},
+		{
+			"id":6,
+			"url":"https://raw.githubusercontent.com/AOHIH/appOauthTest/master/xianyue/pic/iv_icon_huitoutiao.jpg",
+			"name":"惠头条",
+			"run":true,
+			"packageName":"com.cashtoutiao",
+			"stop":"am force-stop com.cashtoutiao",
+			"start":"am start -n com.cashtoutiao/com.cashtoutiao.account.ui.main.MainTabActivity",
+			"dumpsys":"dumpsys window | grep mCurrentFocus",
+			"back":"input keyevent 4",
+			"tap":"input tap",
+			"swipeUp":"input swipe 300 1200 300 500 100",
+			"swipeDown":"input swipe 300 500 300 1200 100",
+			"dump":"uiautomator dump --compressed ",
+			"xmlPath":"/storage/emulated/legacy/asttnews.xml",
+			"resourceId":"com.aladdin.asttnews:id/new_title",
+			"newsId":"com.aladdin.asttnews:id/tv_title",
+			"others":["广告","置顶","百度","com.aladdin.asttnews:id/tv_time"],
+			"ins":["com.aladdin.asttnews:id/news_comment_edit","com.aladdin.asttnews:id/red_prggress"],
+			"upCount":8,
+			"downCount":8,
+			"sleepSeconds":1,
+			"swipeList":"input swipe 300 1400 300 300",
+			"clickCount":5,
+			"refreshNewSleepSeconds":10,
+			"startSleepSeconds":20,
+			"closeId":"com.cashtoutiao:id/img_close",
+			"more":"",
+			"refreshName":"text",
+			"refreshValue":"刷新"
 		}
 		
 		
