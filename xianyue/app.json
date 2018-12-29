@@ -186,6 +186,37 @@
 			"more":"",
 			"refreshName":"text",
 			"refreshValue":"刷新"
+		},
+		{
+			"id":7,
+			"url":"https://raw.githubusercontent.com/AOHIH/appOauthTest/master/xianyue/pic/iv_icon_yuetoutiao.png",
+			"name":"悦头条",
+			"run":true,
+			"packageName":"com.expflow.reading",
+			"stop":"am force-stop com.expflow.reading",
+			"start":"am start -n com.expflow.reading/com.expflow.reading.activity.MainActivity",
+			"dumpsys":"dumpsys window | grep mCurrentFocus",
+			"back":"input keyevent 4",
+			"tap":"input tap",
+			"swipeUp":"input swipe 300 1200 300 500",
+			"swipeDown":"input swipe 300 500 300 1200",
+			"dump":"uiautomator dump --compressed ",
+			"xmlPath":"/storage/emulated/legacy/reading.xml",
+			"resourceId":"com.expflow.reading:id/txt_second_titleName",
+			"newsId":"com.expflow.reading:id/txt_news_content",
+			"others":["广告","置顶","百度"],
+			"ins":["com.expflow.reading:id/post_tv","com.expflow.reading:id/IvAwardAnim"],
+			"upCount":8,
+			"downCount":8,
+			"sleepSeconds":1,
+			"swipeList":"input swipe 300 1400 300 300",
+			"clickCount":5,
+			"refreshNewSleepSeconds":10,
+			"startSleepSeconds":20,
+			"closeId":"com.expflow.reading:id/ll_quit",
+			"more":"",
+			"refreshName":"resource-id",
+			"refreshValue":"com.expflow.reading:id/txt_news_content"
 		}
 		
 		
