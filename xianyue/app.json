@@ -27,7 +27,7 @@
 			"clickCount":5,
 			"refreshNewSleepSeconds":10,
 			"startSleepSeconds":20,
-			"closeId":"com.jifen.qukan:id/close",
+			"closeId":["com.jifen.qukan:id/close"],
 			"more":"",
 			"refreshName":"resource-id",
 			"refreshValue":"com.jifen.qukan:id/ke"
@@ -58,7 +58,7 @@
 			"clickCount":5,
 			"refreshNewSleepSeconds":10,
 			"startSleepSeconds":20,
-			"closeId":"cn.youth.news:id/close",
+			"closeId":["cn.youth.news:id/close"],
 			"more":"",
 			"refreshName":"resource-id",
 			"refreshValue":"cn.youth.news:id/tv_home_tab"
@@ -89,7 +89,7 @@
 			"clickCount":5,
 			"refreshNewSleepSeconds":10,
 			"startSleepSeconds":25,
-			"closeId":"com.huolea.bull:id/id_dialog_login_close",
+			"closeId":["com.huolea.bull:id/id_dialog_login_close"],
 			"more":"",
 			"refreshName":"resource-id",
 			"refreshValue":"com.huolea.bull:id/id_layout_navigation_news_text"
@@ -120,7 +120,7 @@
 			"clickCount":5,
 			"refreshNewSleepSeconds":10,
 			"startSleepSeconds":20,
-			"closeId":"com.aladdin.asttnews:id/close",
+			"closeId":["com.aladdin.asttnews:id/close"],
 			"more":"",
 			"refreshName":"resource-id",
 			"refreshValue":"com.aladdin.asttnews:id/tv_title"
@@ -151,7 +151,7 @@
 			"clickCount":5,
 			"refreshNewSleepSeconds":10,
 			"startSleepSeconds":20,
-			"closeId":"com.aladdin.asttnews:id/close",
+			"closeId":["com.aladdin.asttnews:id/close"],
 			"more":"btn-show-more",
 			"refreshName":"resource-id",
 			"refreshValue":"com.maihan.tredian:id/main_refresh_tv"
@@ -182,7 +182,7 @@
 			"clickCount":5,
 			"refreshNewSleepSeconds":10,
 			"startSleepSeconds":20,
-			"closeId":"com.cashtoutiao:id/img_close",
+			"closeId":["com.cashtoutiao:id/img_close"],
 			"more":"",
 			"refreshName":"text",
 			"refreshValue":"刷新"
@@ -213,7 +213,7 @@
 			"clickCount":5,
 			"refreshNewSleepSeconds":10,
 			"startSleepSeconds":20,
-			"closeId":"com.expflow.reading:id/ll_quit",
+			"closeId":["com.expflow.reading:id/ll_quit","com.expflow.reading:id/iv_dismiss"],
 			"more":"",
 			"refreshName":"resource-id",
 			"refreshValue":"com.expflow.reading:id/txt_news_content"
