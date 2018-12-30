@@ -280,7 +280,7 @@
 			"downCount":8,
 			"sleepSeconds":1,
 			"swipeList":"input swipe 300 1400 300 900",
-			"clickCount":5,
+			"clickCount":4,
 			"refreshNewSleepSeconds":10,
 			"startSleepSeconds":20,
 			"closeId":["com.expflow.reading:id/ll_quit","com.expflow.reading:id/iv_dismiss"],
