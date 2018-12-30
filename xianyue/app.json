@@ -229,7 +229,7 @@
 			"id":8,
 			"url":"https://raw.githubusercontent.com/AOHIH/appOauthTest/master/xianyue/pic/iv_icon_qukantianxia.png",
 			"name":"趣看天下",
-			"run":false,
+			"run":true,
 			"packageName":"com.yanhui.qktx",
 			"stop":"am force-stop com.yanhui.qktx",
 			"start":"am start -n com.yanhui.qktx/com.yanhui.qktx.activity.SplashActivity",
