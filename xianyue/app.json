@@ -279,7 +279,7 @@
 			"upCount":8,
 			"downCount":8,
 			"sleepSeconds":1,
-			"swipeList":"input swipe 300 1400 300 300",
+			"swipeList":"input swipe 300 1400 300 900",
 			"clickCount":5,
 			"refreshNewSleepSeconds":10,
 			"startSleepSeconds":20,
