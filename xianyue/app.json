@@ -388,7 +388,7 @@
 		{
 			"id":13,
 			"url":"https://raw.githubusercontent.com/AOHIH/appOauthTest/master/xianyue/pic/iv_icon_tiantiankanship.jpg",
-			"name":"天天看视频",
+			"name":"天天视频",
 			"run":true,
 			"packageName":"com.tiantiankan.video",
 			"stop":"am force-stop com.tiantiankan.video",
