@@ -319,7 +319,7 @@
 			"more":"",
 			"refreshName":"text",
 			"refreshValue":"快报",
-			"useResourceId":true
+			"useResourceId":false
 		},
 		{
 			"id":11,
