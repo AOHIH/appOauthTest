@@ -68,7 +68,7 @@
 		{
 			"id":3,
 			"url":"https://raw.githubusercontent.com/AOHIH/appOauthTest/master/xianyue/pic/iv_icon_niuniutoutiao.png",
-			"name":"牛牛头条",
+			"name":"牛牛头条--提现帐号被锁",
 			"run":false,
 			"packageName":"com.huolea.bull",
 			"stop":"am force-stop com.huolea.bull",
@@ -100,7 +100,7 @@
 		{
 			"id":4,
 			"url":"https://raw.githubusercontent.com/AOHIH/appOauthTest/master/xianyue/pic/iv_icon_aishangtoutiao.png",
-			"name":"爱上头条",
+			"name":"爱上头条--提现帐号被锁",
 			"run":false,
 			"packageName":"com.aladdin.asttnews",
 			"stop":"am force-stop com.aladdin.asttnews",
@@ -164,7 +164,7 @@
 		{
 			"id":6,
 			"url":"https://raw.githubusercontent.com/AOHIH/appOauthTest/master/xianyue/pic/iv_icon_huitoutiao.jpg",
-			"name":"惠头条",
+			"name":"惠头条--提现帐号被锁",
 			"run":false,
 			"packageName":"com.cashtoutiao",
 			"stop":"am force-stop com.cashtoutiao",
@@ -260,7 +260,7 @@
 		{
 			"id":9,
 			"url":"https://raw.githubusercontent.com/AOHIH/appOauthTest/master/xianyue/pic/iv_icon_dongfangtoutiao.png",
-			"name":"东方头条",
+			"name":"东方头条--提现帐号被锁",
 			"run":false,
 			"packageName":"com.songheng.eastnews",
 			"stop":"am force-stop com.songheng.eastnews",
