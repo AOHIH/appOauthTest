@@ -415,7 +415,7 @@
 			"more":"",
 			"refreshName":"text",
 			"refreshValue":"刷新",
-			"useResourceId":true
+			"useResourceId":false
 		}
 		
 		
