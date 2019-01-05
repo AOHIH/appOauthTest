@@ -370,10 +370,10 @@
 			"xmlPath":"/storage/emulated/legacy/xinwenzhuan.xml",
 			"resourceId":"com.coohua.xinwenzhuan:id/tab_feed__item_img_multi",
 			"newsId":"com.coohua.xinwenzhuan:id/home_tab_text",
-			"others":["广告","置顶","百度","点击刷新","com.tencent.reading:id/tips_text"],
+			"others":["广告","置顶","百度","点击刷新"],
 			"ins":["com.coohua.xinwenzhuan:id/comment_edit"],
-			"upCount":20,
-			"downCount":20,
+			"upCount":16,
+			"downCount":16,
 			"sleepSeconds":0,
 			"swipeList":"input swipe 300 1100 300 600",
 			"clickCount":4,
@@ -383,7 +383,7 @@
 			"more":"",
 			"refreshName":"text",
 			"refreshValue":"新闻",
-			"useResourceId":true
+			"useResourceId":false
 		}
 		
 		
