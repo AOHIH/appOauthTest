@@ -315,11 +315,11 @@
 			"clickCount":4,
 			"refreshNewSleepSeconds":10,
 			"startSleepSeconds":20,
-			"closeId":["com.expflow.reading:id/ll_quit","com.expflow.reading:id/iv_dismiss"],
+			"closeId":[],
 			"more":"",
 			"refreshName":"text",
 			"refreshValue":"刷新",
-			"useResourceId":false
+			"useResourceId":true
 		},
 		{
 			"id":11,
