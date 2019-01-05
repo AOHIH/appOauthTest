@@ -332,8 +332,8 @@
 			"dumpsys":"dumpsys window | grep mCurrentFocus",
 			"back":"input keyevent 4",
 			"tap":"input tap",
-			"swipeUp":"echo test",
-			"swipeDown":"echo test",
+			"swipeUp":"echo testUp",
+			"swipeDown":"echo testDown",
 			"dump":"uiautomator dump --compressed ",
 			"xmlPath":"/storage/emulated/legacy/youju.xml",
 			"resourceId":"com.sohu.youju:id/layout_root",
@@ -343,7 +343,7 @@
 			"upCount":20,
 			"downCount":20,
 			"sleepSeconds":1,
-			"swipeList":"input swipe 300 1100 300 600",
+			"swipeList":"input swipe 300 1100 300 600 100",
 			"clickCount":4,
 			"refreshNewSleepSeconds":10,
 			"startSleepSeconds":20,
@@ -351,7 +351,7 @@
 			"more":"",
 			"refreshName":"text",
 			"refreshValue":"首页",
-			"useResourceId":true
+			"useResourceId":false
 		},
 		{
 			"id":12,
