@@ -479,7 +479,7 @@
 			"more":"",
 			"refreshName":"text",
 			"refreshValue":"头条",
-			"useResourceId":true
+			"useResourceId":false
 		}
 		
 		
