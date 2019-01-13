@@ -434,7 +434,7 @@
 			"id":14,
 			"url":"https://raw.githubusercontent.com/AOHIH/appOauthTest/master/xianyue/pic/iv_icon_qutoutiao.png",
 			"name":"聚看点",
-			"version":"Vx.x.x",
+			"version":"V6.0.0",
 			"run":true,
 			"packageName":"com.xiangzi.jukandian",
 			"stop":"am force-stop com.xiangzi.jukandian",
