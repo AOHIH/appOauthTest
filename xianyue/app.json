@@ -543,7 +543,7 @@
 			"tap":"input tap",
 			"swipeUp":"input swipe 300 1100 300 700",
 			"swipeDown":"input swipe 300 700 300 1100",
-			"dump":"uiautomator dump ",
+			"dump":"uiautomator dump --compressed ",
 			"xmlPath":"/storage/emulated/legacy/story.xml",
 			"resourceId":"com.ziqun.story:id/title",
 			"newsId":"com.ziqun.story:id/title_alipay",
@@ -576,7 +576,7 @@
 			"tap":"input tap",
 			"swipeUp":"input swipe 300 1100 300 700",
 			"swipeDown":"input swipe 300 700 300 1100",
-			"dump":"uiautomator dump ",
+			"dump":"uiautomator dump --compressed ",
 			"xmlPath":"/storage/emulated/legacy/headline.xml",
 			"resourceId":"com.yooee.headline:id/title",
 			"newsId":"com.yooee.headline:id/text",
@@ -609,7 +609,7 @@
 			"tap":"input tap",
 			"swipeUp":"input swipe 300 1100 300 700",
 			"swipeDown":"input swipe 300 700 300 1100",
-			"dump":"uiautomator dump ",
+			"dump":"uiautomator dump --compressed ",
 			"xmlPath":"/storage/emulated/legacy/mgkd.xml",
 			"resourceId":"com.kuaixun.mgkd:id/tv_title",
 			"newsId":"com.kuaixun.mgkd:id/tv_info",
@@ -624,8 +624,8 @@
 			"startSleepSeconds":20,
 			"closeId":["com.kuaixun.mgkd:id/ib_cancel_redenvelopes"],
 			"more":"",
-			"refreshName":"resource-id",
-			"refreshValue":"com.kuaixun.mgkd:id/tv_info",
+			"refreshName":"text",
+			"refreshValue":"刷新",
 			"useResourceId":false
 		}
 		
