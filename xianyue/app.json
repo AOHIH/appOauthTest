@@ -220,7 +220,7 @@
 			"others":["广告","置顶","百度"],
 			"ins":["com.expflow.reading:id/post_tv","com.expflow.reading:id/IvAwardAnim"],
 			"upCount":21,
-			"downCount":20,
+			"downCount":21,
 			"sleepSeconds":0,
 			"swipeList":"input swipe 300 1100 300 700 100",
 			"clickCount":5,
