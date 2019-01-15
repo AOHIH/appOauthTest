@@ -643,7 +643,7 @@
 			"swipeUp":"input swipe 300 1100 300 700",
 			"swipeDown":"input swipe 300 700 300 1100",
 			"dump":"uiautomator dump --compressed ",
-			"xmlPath":"/storage/emulated/legacy/weli.xml",
+			"xmlPath":"/storage/emulated/legacy/welistory.xml",
 			"resourceId":"cn.weli.story:id/tv_title",
 			"newsId":"cn.weli.story:id/rl_bottom_1",
 			"others":["热点","广告","置顶","百度","点击刷新"],
