@@ -553,7 +553,7 @@
 			"downCount":8,
 			"sleepSeconds":1,
 			"swipeList":"input swipe 300 1100 300 700 100",
-			"clickCount":5,
+			"clickCount":500,
 			"refreshNewSleepSeconds":10,
 			"startSleepSeconds":20,
 			"closeId":["com.ziqun.story:id/img_close"],
