@@ -451,7 +451,7 @@
 			"others":["广告","置顶","百度","点击刷新"],
 			"ins":["com.xiangzi.jukandian:id/tv_web_comment_hint","com.xiangzi.jukandian:id/ll_share_layout"],
 			"upCount":16,
-			"downCount":15,
+			"downCount":16,
 			"sleepSeconds":1,
 			"swipeList":"input swipe 300 1100 300 700 100",
 			"clickCount":5,
