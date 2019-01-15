@@ -647,7 +647,7 @@
 			"resourceId":"cn.weli.story:id/tv_title",
 			"newsId":"cn.weli.story:id/rl_bottom_1",
 			"others":["热点","广告","置顶","百度","点击刷新"],
-			"ins":["cn.weli.story:id/rl_read_coin","cn.weli.story:id/tv_comment"],
+			"ins":["cn.weli.story:id/rl_read_coin","cn.weli.story:id/tv_comment","cn.weli.story:id/rl_bottom_1"],
 			"upCount":15,
 			"downCount":14,
 			"sleepSeconds":1,
