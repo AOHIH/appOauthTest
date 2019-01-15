@@ -39,7 +39,7 @@
 			"url":"https://raw.githubusercontent.com/AOHIH/appOauthTest/master/xianyue/pic/iv_icon_zhongqingkandian.png",
 			"name":"中青看点",
 			"version":"V1.3.7",
-			"run":true,
+			"run":false,
 			"packageName":"cn.youth.news",
 			"stop":"am force-stop cn.youth.news",
 			"start":"am start -n cn.youth.news/com.weishang.wxrd.activity.SplashActivity",
