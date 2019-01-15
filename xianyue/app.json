@@ -622,7 +622,7 @@
 			"clickCount":500,
 			"refreshNewSleepSeconds":10,
 			"startSleepSeconds":20,
-			"closeId":["com.kuaixun.mgkd:id/img_close"],
+			"closeId":["com.kuaixun.mgkd:id/ib_cancel_redenvelopes"],
 			"more":"",
 			"refreshName":"text",
 			"refreshValue":"刷新",
