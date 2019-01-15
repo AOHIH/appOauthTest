@@ -624,8 +624,8 @@
 			"startSleepSeconds":20,
 			"closeId":["com.kuaixun.mgkd:id/ib_cancel_redenvelopes"],
 			"more":"",
-			"refreshName":"text",
-			"refreshValue":"刷新",
+			"refreshName":"resource-id",
+			"refreshValue":"com.kuaixun.mgkd:id/tv_info",
 			"useResourceId":false
 		}
 		
