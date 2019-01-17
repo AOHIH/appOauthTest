@@ -1,5 +1,7 @@
 {
 	"run":true,
+	"setScreenTimeout":"settings put system screen_off_timeout 2147483647",
+	"setScreenBrightness":"settings put system screen_brightness 50",
 	"apps":[
 		{
 			"id":1,
@@ -468,7 +470,7 @@
 			"url":"https://raw.githubusercontent.com/AOHIH/appOauthTest/master/xianyue/pic/iv_icon_qutoutiao.png",
 			"name":"韭黄头条",
 			"version":"V1.1.2",
-			"run":true,
+			"run":false,
 			"packageName":"com.jiuhuang.news",
 			"stop":"am force-stop com.jiuhuang.news",
 			"start":"am start -n com.jiuhuang.news/com.jiuhuang.news.activity.MainActivity",
