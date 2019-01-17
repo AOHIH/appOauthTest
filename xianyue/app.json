@@ -680,7 +680,7 @@
 			"resourceId":"me.toutiaoapp:id/title",
 			"newsId":"me.toutiaoapp:id/tabs_indicator_text",
 			"others":["热点","广告","置顶","百度","点击刷新","推荐"],
-			"ins":["me.toutiaoapp:id/news_read_webview"],
+			"ins":["me.toutiaoapp:id/news_read_webview","me.toutiaoapp:id/title"],
 			"upCount":15,
 			"downCount":14,
 			"sleepSeconds":1,
