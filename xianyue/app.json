@@ -1,7 +1,7 @@
 {
 	"run":true,
 	"setScreenTimeout":"settings put system screen_off_timeout 2147483647",
-	"setScreenBrightness":"settings put system screen_brightness 50",
+	"setScreenBrightness":"settings put system screen_brightness 10",
 	"apps":[
 		{
 			"id":1,
