@@ -35,7 +35,8 @@
 			"refreshName":"text",
 			"refreshValue":"刷新",
 			"useResourceId":false,
-			"order":1
+			"order":1,
+			"runTime":60
 		},
 		{
 			"id":2,
@@ -69,7 +70,8 @@
 			"refreshName":"resource-id",
 			"refreshValue":"cn.youth.news:id/tv_home_tab",
 			"useResourceId":false,
-			"order":10
+			"order":1,
+			"runTime":60
 		},
 		{
 			"id":3,
@@ -103,7 +105,8 @@
 			"refreshName":"resource-id",
 			"refreshValue":"com.huolea.bull:id/id_layout_navigation_news_text",
 			"useResourceId":false,
-			"order":1
+			"order":1,
+			"runTime":60
 		},
 		{
 			"id":4,
@@ -137,7 +140,8 @@
 			"refreshName":"resource-id",
 			"refreshValue":"com.aladdin.asttnews:id/tv_title",
 			"useResourceId":false,
-			"order":1
+			"order":1,
+			"runTime":60
 		},
 		{
 			"id":5,
@@ -171,7 +175,8 @@
 			"refreshName":"resource-id",
 			"refreshValue":"com.maihan.tredian:id/main_refresh_tv",
 			"useResourceId":false,
-			"order":1
+			"order":1,
+			"runTime":60
 		},
 		{
 			"id":6,
@@ -205,7 +210,8 @@
 			"refreshName":"text",
 			"refreshValue":"刷新",
 			"useResourceId":false,
-			"order":1
+			"order":1,
+			"runTime":60
 		},
 		{
 			"id":7,
@@ -239,7 +245,8 @@
 			"refreshName":"resource-id",
 			"refreshValue":"com.expflow.reading:id/txt_news_content",
 			"useResourceId":false,
-			"order":1
+			"order":10,
+			"runTime":5
 		},
 		{
 			"id":8,
@@ -273,7 +280,8 @@
 			"refreshName":"text",
 			"refreshValue":"首页",
 			"useResourceId":true,
-			"order":1
+			"order":1,
+			"runTime":60
 		},
 		{
 			"id":9,
@@ -307,7 +315,8 @@
 			"refreshName":"text",
 			"refreshValue":"新闻",
 			"useResourceId":false,
-			"order":1
+			"order":1,
+			"runTime":60
 		},
 		{
 			"id":10,
@@ -341,7 +350,8 @@
 			"refreshName":"text",
 			"refreshValue":"快报",
 			"useResourceId":false,
-			"order":1
+			"order":1,
+			"runTime":60
 		},
 		{
 			"id":11,
@@ -375,7 +385,8 @@
 			"refreshName":"text",
 			"refreshValue":"首页",
 			"useResourceId":false,
-			"order":1
+			"order":1,
+			"runTime":60
 		},
 		{
 			"id":12,
@@ -409,7 +420,8 @@
 			"refreshName":"text",
 			"refreshValue":"新闻",
 			"useResourceId":false,
-			"order":1
+			"order":1,
+			"runTime":60
 		},
 		{
 			"id":13,
@@ -443,7 +455,8 @@
 			"refreshName":"text",
 			"refreshValue":"刷新",
 			"useResourceId":true,
-			"order":1
+			"order":1,
+			"runTime":60
 		},
 		{
 			"id":14,
@@ -477,7 +490,8 @@
 			"refreshName":"text",
 			"refreshValue":"刷新",
 			"useResourceId":false,
-			"order":1
+			"order":1,
+			"runTime":60
 		},
 		{
 			"id":15,
@@ -511,7 +525,8 @@
 			"refreshName":"text",
 			"refreshValue":"头条",
 			"useResourceId":true,
-			"order":1
+			"order":1,
+			"runTime":60
 		},
 		{
 			"id":16,
@@ -545,7 +560,8 @@
 			"refreshName":"text",
 			"refreshValue":"首页",
 			"useResourceId":false,
-			"order":1
+			"order":1,
+			"runTime":60
 		},
 		{
 			"id":17,
@@ -579,7 +595,8 @@
 			"refreshName":"text",
 			"refreshValue":"首页",
 			"useResourceId":false,
-			"order":1
+			"order":1,
+			"runTime":60
 		},
 		{
 			"id":18,
@@ -613,7 +630,8 @@
 			"refreshName":"text",
 			"refreshValue":"刷新",
 			"useResourceId":false,
-			"order":1
+			"order":1,
+			"runTime":60
 		},
 		{
 			"id":19,
@@ -647,7 +665,8 @@
 			"refreshName":"text",
 			"refreshValue":"刷新",
 			"useResourceId":false,
-			"order":1
+			"order":1,
+			"runTime":60
 		},
 		{
 			"id":20,
@@ -681,7 +700,8 @@
 			"refreshName":"resource-id",
 			"refreshValue":"cn.weli.story:id/rl_bottom_1",
 			"useResourceId":false,
-			"order":1
+			"order":1,
+			"runTime":60
 		},
 		{
 			"id":21,
@@ -715,7 +735,8 @@
 			"refreshName":"text",
 			"refreshValue":"头条",
 			"useResourceId":false,
-			"order":1
+			"order":1,
+			"runTime":60
 		},
 		{
 			"id":22,
@@ -749,7 +770,8 @@
 			"refreshName":"text",
 			"refreshValue":"头条",
 			"useResourceId":false,
-			"order":1
+			"order":1,
+			"runTime":60
 		},
 		{
 			"id":23,
@@ -783,7 +805,8 @@
 			"refreshName":"text",
 			"refreshValue":"首页",
 			"useResourceId":false,
-			"order":1
+			"order":1,
+			"runTime":60
 		},
 		{
 			"id":24,
@@ -817,7 +840,8 @@
 			"refreshName":"text",
 			"refreshValue":"头条",
 			"useResourceId":false,
-			"order":1
+			"order":1,
+			"runTime":60
 		},
 		{
 			"id":25,
@@ -851,7 +875,8 @@
 			"refreshName":"text",
 			"refreshValue":"首页",
 			"useResourceId":false,
-			"order":1
+			"order":1,
+			"runTime":60
 		}
 		
 		
