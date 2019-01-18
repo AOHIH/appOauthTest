@@ -455,14 +455,14 @@
 			"refreshName":"text",
 			"refreshValue":"刷新",
 			"useResourceId":true,
-			"order":10,
+			"order":1,
 			"runTime":60
 		},
 		{
 			"id":14,
 			"url":"https://raw.githubusercontent.com/AOHIH/appOauthTest/master/xianyue/pic/iv_icon_qutoutiao.png",
 			"name":"聚看点",
-			"version":"V6.0.0",
+			"version":"V6.0.7",
 			"run":true,
 			"packageName":"com.xiangzi.jukandian",
 			"stop":"am force-stop com.xiangzi.jukandian",
@@ -477,7 +477,7 @@
 			"resourceId":"com.xiangzi.jukandian:id/item_artical_three_parent",
 			"newsId":"com.xiangzi.jukandian:id/tv_tab1",
 			"others":["广告","置顶","百度","点击刷新"],
-			"ins":["com.xiangzi.jukandian:id/tv_web_comment_hint","com.xiangzi.jukandian:id/ll_share_layout"],
+			"ins":["com.xiangzi.jukandian:id/tv_web_comment_hint","评论得金币"],
 			"upCount":16,
 			"downCount":16,
 			"sleepSeconds":1,
@@ -490,7 +490,7 @@
 			"refreshName":"text",
 			"refreshValue":"刷新",
 			"useResourceId":false,
-			"order":1,
+			"order":10,
 			"runTime":60
 		},
 		{
