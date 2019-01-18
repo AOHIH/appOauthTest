@@ -22,7 +22,7 @@
 			"resourceId":"com.jifen.qukan:id/ol",
 			"newsId":"com.jifen.qukan:id/ke",
 			"others":["广告","置顶","百度","com.jifen.qukan:id/zc","点击刷新"],
-			"ins":["com.jifen.qukan:id/nx","com.jifen.qukan:id/l5","com.jifen.qukan:id/lf","我来说两句"],
+			"ins":["我来说两句"],
 			"upCount":16,
 			"downCount":16,
 			"sleepSeconds":0,
