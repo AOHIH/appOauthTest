@@ -875,7 +875,7 @@
 			"refreshName":"text",
 			"refreshValue":"首页",
 			"useResourceId":false,
-			"order":10,
+			"order":1,
 			"runTime":60
 		}
 		
