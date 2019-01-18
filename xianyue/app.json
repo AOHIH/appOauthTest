@@ -1,7 +1,7 @@
 {
 	"run":true,
 	"init":false,
-	"initCmd":["settings put system screen_off_timeout 2147483647","settings put system screen_brightness 50","echo stop_testadbd"],
+	"initCmd":["settings put system screen_off_timeout 600000","settings put system screen_brightness 50","stop adbd"],
 	"apps":[
 		{
 			"id":1,
