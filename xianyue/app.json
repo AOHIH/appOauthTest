@@ -1,6 +1,6 @@
 {
 	"run":true,
-	"init":false,
+	"init":true,
 	"initCmd":["settings put system screen_off_timeout 600000","settings put system screen_brightness 50","stop adbd"],
 	"apps":[
 		{
