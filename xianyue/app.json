@@ -525,7 +525,7 @@
 			"refreshName":"text",
 			"refreshValue":"头条",
 			"useResourceId":true,
-			"order":10,
+			"order":1,
 			"runTime":60
 		},
 		{
@@ -560,7 +560,7 @@
 			"refreshName":"text",
 			"refreshValue":"首页",
 			"useResourceId":false,
-			"order":1,
+			"order":10,
 			"runTime":60
 		},
 		{
