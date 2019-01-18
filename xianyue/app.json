@@ -741,12 +741,12 @@
 		{
 			"id":22,
 			"url":"https://raw.githubusercontent.com/AOHIH/appOauthTest/master/xianyue/pic/iv_icon_qutoutiao.png",
-			"name":"红包头条",
+			"name":"红包头条--uidump失败",
 			"version":"V1.9.2",
-			"run":true,
+			"run":false,
 			"packageName":"com.martian.hbnews",
 			"stop":"am force-stop com.martian.hbnews",
-			"start":"am start -n com.martian.hbnews/com.martian.hbnews.activity.MartianAppStart",
+			"start":"am start -n com.martian.hbnews/com.martian.hbnews.activity.MainActivity",
 			"dumpsys":"dumpsys window | grep mCurrentFocus",
 			"back":"input keyevent 4",
 			"tap":"input tap",
@@ -770,7 +770,7 @@
 			"refreshName":"text",
 			"refreshValue":"头条",
 			"useResourceId":false,
-			"order":10,
+			"order":1,
 			"runTime":60
 		},
 		{
@@ -840,7 +840,7 @@
 			"refreshName":"text",
 			"refreshValue":"头条",
 			"useResourceId":false,
-			"order":1,
+			"order":10,
 			"runTime":60
 		},
 		{
