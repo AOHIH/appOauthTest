@@ -1,7 +1,7 @@
 {
 	"run":true,
-	"init":true,
-	"initCmd":["settings put system screen_off_timeout 600000","settings put system screen_brightness 50","stop adbd"],
+	"init":false,
+	"initCmd":["settings put system screen_off_timeout 2147483647","settings put system screen_brightness 50","stop adbd"],
 	"apps":[
 		{
 			"id":1,
@@ -37,7 +37,7 @@
 			"refreshValue":"刷新",
 			"useResourceId":false,
 			"order":1,
-			"runTime":60
+			"runTime":3
 		},
 		{
 			"id":2,
@@ -73,7 +73,7 @@
 			"refreshValue":"cn.youth.news:id/tv_home_tab",
 			"useResourceId":false,
 			"order":1,
-			"runTime":60
+			"runTime":3
 		},
 		{
 			"id":3,
@@ -109,7 +109,7 @@
 			"refreshValue":"com.huolea.bull:id/id_layout_navigation_news_text",
 			"useResourceId":false,
 			"order":1,
-			"runTime":60
+			"runTime":3
 		},
 		{
 			"id":4,
@@ -145,7 +145,7 @@
 			"refreshValue":"com.aladdin.asttnews:id/tv_title",
 			"useResourceId":false,
 			"order":1,
-			"runTime":60
+			"runTime":3
 		},
 		{
 			"id":5,
@@ -181,7 +181,7 @@
 			"refreshValue":"com.maihan.tredian:id/main_refresh_tv",
 			"useResourceId":false,
 			"order":1,
-			"runTime":60
+			"runTime":3
 		},
 		{
 			"id":6,
@@ -217,7 +217,7 @@
 			"refreshValue":"刷新",
 			"useResourceId":false,
 			"order":1,
-			"runTime":60
+			"runTime":3
 		},
 		{
 			"id":7,
@@ -253,7 +253,7 @@
 			"refreshValue":"com.expflow.reading:id/txt_news_content",
 			"useResourceId":false,
 			"order":1,
-			"runTime":60
+			"runTime":3
 		},
 		{
 			"id":8,
@@ -289,7 +289,7 @@
 			"refreshValue":"首页",
 			"useResourceId":true,
 			"order":1,
-			"runTime":60
+			"runTime":3
 		},
 		{
 			"id":9,
@@ -325,7 +325,7 @@
 			"refreshValue":"新闻",
 			"useResourceId":false,
 			"order":1,
-			"runTime":60
+			"runTime":3
 		},
 		{
 			"id":10,
@@ -361,7 +361,7 @@
 			"refreshValue":"快报",
 			"useResourceId":false,
 			"order":1,
-			"runTime":60
+			"runTime":3
 		},
 		{
 			"id":11,
@@ -397,7 +397,7 @@
 			"refreshValue":"首页",
 			"useResourceId":false,
 			"order":1,
-			"runTime":60
+			"runTime":3
 		},
 		{
 			"id":12,
@@ -433,7 +433,7 @@
 			"refreshValue":"新闻",
 			"useResourceId":false,
 			"order":1,
-			"runTime":60
+			"runTime":3
 		},
 		{
 			"id":13,
@@ -469,7 +469,7 @@
 			"refreshValue":"刷新",
 			"useResourceId":true,
 			"order":1,
-			"runTime":60
+			"runTime":3
 		},
 		{
 			"id":14,
@@ -505,7 +505,7 @@
 			"refreshValue":"刷新",
 			"useResourceId":false,
 			"order":1,
-			"runTime":60
+			"runTime":3
 		},
 		{
 			"id":15,
@@ -541,7 +541,7 @@
 			"refreshValue":"头条",
 			"useResourceId":true,
 			"order":1,
-			"runTime":60
+			"runTime":3
 		},
 		{
 			"id":16,
@@ -577,7 +577,7 @@
 			"refreshValue":"首页",
 			"useResourceId":false,
 			"order":1,
-			"runTime":60
+			"runTime":3
 		},
 		{
 			"id":17,
@@ -613,7 +613,7 @@
 			"refreshValue":"首页",
 			"useResourceId":false,
 			"order":1,
-			"runTime":60
+			"runTime":3
 		},
 		{
 			"id":18,
@@ -649,7 +649,7 @@
 			"refreshValue":"刷新",
 			"useResourceId":false,
 			"order":1,
-			"runTime":60
+			"runTime":3
 		},
 		{
 			"id":19,
@@ -685,7 +685,7 @@
 			"refreshValue":"刷新",
 			"useResourceId":false,
 			"order":1,
-			"runTime":60
+			"runTime":3
 		},
 		{
 			"id":20,
@@ -721,7 +721,7 @@
 			"refreshValue":"cn.weli.story:id/rl_bottom_1",
 			"useResourceId":false,
 			"order":1,
-			"runTime":60
+			"runTime":3
 		},
 		{
 			"id":21,
@@ -757,7 +757,7 @@
 			"refreshValue":"头条",
 			"useResourceId":false,
 			"order":1,
-			"runTime":60
+			"runTime":3
 		},
 		{
 			"id":22,
@@ -793,7 +793,7 @@
 			"refreshValue":"头条",
 			"useResourceId":false,
 			"order":1,
-			"runTime":60
+			"runTime":3
 		},
 		{
 			"id":23,
@@ -829,7 +829,7 @@
 			"refreshValue":"首页",
 			"useResourceId":false,
 			"order":1,
-			"runTime":60
+			"runTime":3
 		},
 		{
 			"id":24,
@@ -865,7 +865,7 @@
 			"refreshValue":"头条",
 			"useResourceId":false,
 			"order":1,
-			"runTime":60
+			"runTime":3
 		},
 		{
 			"id":25,
@@ -901,7 +901,7 @@
 			"refreshValue":"首页",
 			"useResourceId":false,
 			"order":1,
-			"runTime":60
+			"runTime":3
 		}
 		
 		
