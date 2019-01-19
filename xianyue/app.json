@@ -1,11 +1,11 @@
 {
 	"run":true,
 	"init":true,
-	"initCmd":["settings put system screen_off_timeout 2147483647","settings put system screen_brightness 50","stop adbd"],
+	"initCmd":["settings put system screen_off_timeout 2147483647","settings put system screen_brightness 100","stop adbd"],
 	"autoStartup":true,
 	"autoStartupCmd":["input keyevent 3","input keyevent 3","input swipe 500 100 500 700","input keyevent 3","input keyevent 3"],
 	"autoStartupInterval":2,
-	"autoStartupSleep":6,
+	"autoStartupSleep":600,
 	"apps":[
 		{
 			"id":1,
