@@ -472,7 +472,7 @@
 			"refreshName":"text",
 			"refreshValue":"刷新",
 			"useResourceId":true,
-			"order":1,
+			"order":10,
 			"runTime":3
 		},
 		{
