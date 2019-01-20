@@ -6,6 +6,7 @@
 	"autoStartupCmd":["setprop service.adb.tcp.port 5555","stop adbd","start adbd","input keyevent 26","input keyevent 3","input keyevent 3","input swipe 500 100 500 700","input keyevent 3","input keyevent 3"],
 	"autoStartupInterval":2,
 	"autoStartupSleep":6,
+	"ips":["192.168.1.103"],
 	"apps":[
 		{
 			"id":1,
