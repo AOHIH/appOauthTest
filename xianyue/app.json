@@ -1,5 +1,5 @@
 {
-	"run":false,
+	"run":true,
 	"init":true,
 	"initCmd":["settings put system screen_off_timeout 2147483647","settings put system screen_brightness 100","echo testadbd"],
 	"autoStartup":true,
