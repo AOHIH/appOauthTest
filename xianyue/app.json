@@ -41,7 +41,7 @@
 			"refreshName":"text",
 			"refreshValue":"刷新",
 			"useResourceId":false,
-			"order":8,
+			"order":10,
 			"runTime":60
 		},
 		{
@@ -77,7 +77,7 @@
 			"refreshName":"resource-id",
 			"refreshValue":"cn.youth.news:id/tv_home_tab",
 			"useResourceId":false,
-			"order":10,
+			"order":1,
 			"runTime":60
 		},
 		{
