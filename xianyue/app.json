@@ -748,8 +748,8 @@
 			"newsId":"me.toutiaoapp:id/tabs_indicator_text",
 			"others":["热点","广告","置顶","百度","点击刷新","推荐"],
 			"ins":["me.toutiaoapp:id/news_read_webview","me.toutiaoapp:id/title"],
-			"upCount":25,
-			"downCount":24,
+			"upCount":28,
+			"downCount":28,
 			"sleepSeconds":1,
 			"swipeList":"input swipe 300 1100 300 700 100",
 			"clickCount":5,
@@ -761,7 +761,7 @@
 			"refreshName":"text",
 			"refreshValue":"头条",
 			"useResourceId":false,
-			"order":10,
+			"order":1,
 			"runTime":60
 		},
 		{
@@ -905,7 +905,7 @@
 			"refreshName":"text",
 			"refreshValue":"首页",
 			"useResourceId":false,
-			"order":1,
+			"order":10,
 			"runTime":60
 		}
 		
