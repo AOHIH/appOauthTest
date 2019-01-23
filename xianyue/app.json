@@ -41,7 +41,7 @@
 			"refreshName":"text",
 			"refreshValue":"刷新",
 			"useResourceId":false,
-			"order":7,
+			"order":6,
 			"runTime":90
 		},
 		{
@@ -77,8 +77,8 @@
 			"refreshName":"resource-id",
 			"refreshValue":"cn.youth.news:id/tv_home_tab",
 			"useResourceId":false,
-			"order":9,
-			"runTime":90
+			"order":19,
+			"runTime":120
 		},
 		{
 			"id":3,
@@ -257,7 +257,7 @@
 			"refreshName":"resource-id",
 			"refreshValue":"com.expflow.reading:id/txt_news_content",
 			"useResourceId":false,
-			"order":8,
+			"order":9,
 			"runTime":90
 		},
 		{
@@ -906,7 +906,7 @@
 			"refreshValue":"首页",
 			"useResourceId":false,
 			"order":1,
-			"runTime":30
+			"runTime":60
 		}
 		
 		
