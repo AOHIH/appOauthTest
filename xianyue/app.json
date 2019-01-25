@@ -509,7 +509,7 @@
 			"refreshName":"text",
 			"refreshValue":"刷新",
 			"useResourceId":false,
-			"order":8,
+			"order":20,
 			"runTime":90
 		},
 		{
