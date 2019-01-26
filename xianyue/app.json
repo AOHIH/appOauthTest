@@ -484,7 +484,7 @@
 			"run":true,
 			"packageName":"com.xiangzi.jukandian",
 			"stop":"am force-stop com.xiangzi.jukandian",
-			"start":"am start -n com.xiangzi.jukandian/com.xiangzi.jukandian.activity.MainActivity",
+			"start":"am start -n com.xiangzi.jukandian/com.xiangzi.jukandian.activity.V2WelcomeActivity",
 			"dumpsys":"dumpsys window | grep mCurrentFocus",
 			"back":"input keyevent 4",
 			"tap":"input tap",
