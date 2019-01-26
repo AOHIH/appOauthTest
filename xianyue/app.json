@@ -501,7 +501,7 @@
 			"sleepSeconds":1,
 			"swipeList":"input swipe 300 1100 300 700 100",
 			"clickCount":5,
-			"clickSleep":3,
+			"clickSleep":5,
 			"refreshNewSleepSeconds":10,
 			"startSleepSeconds":30,
 			"closeId":["com.xiangzi.jukandian/close"],
