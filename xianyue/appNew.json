@@ -41,7 +41,7 @@
 			"refreshName":"text",
 			"refreshValue":"刷新",
 			"useResourceId":false,
-			"order":5,
+			"order":50,
 			"runTime":60
 		},
 		{
