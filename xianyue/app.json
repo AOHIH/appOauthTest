@@ -473,7 +473,7 @@
 			"refreshName":"text",
 			"refreshValue":"刷新",
 			"useResourceId":true,
-			"order":2,
+			"order":20,
 			"runTime":60
 		},
 		{
@@ -905,7 +905,7 @@
 			"refreshName":"text",
 			"refreshValue":"首页",
 			"useResourceId":false,
-			"order":20,
+			"order":1,
 			"runTime":60
 		}
 		
