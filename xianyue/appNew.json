@@ -113,7 +113,7 @@
 			"refreshName":"resource-id",
 			"refreshValue":"com.expflow.reading:id/txt_news_content",
 			"useResourceId":false,
-			"order":90,
+			"order":9,
 			"runTime":120
 		},
 		{
