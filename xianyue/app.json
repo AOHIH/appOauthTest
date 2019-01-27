@@ -905,7 +905,7 @@
 			"refreshName":"text",
 			"refreshValue":"首页",
 			"useResourceId":false,
-			"order":4,
+			"order":20,
 			"runTime":60
 		}
 		
