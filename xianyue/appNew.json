@@ -42,7 +42,9 @@
 			"refreshValue":"刷新",
 			"useResourceId":false,
 			"order":5,
-			"runTime":60
+			"runTime":60,
+			"start":0,
+			"end":2
 		},
 		{
 			"id":2,
@@ -78,7 +80,9 @@
 			"refreshValue":"cn.youth.news:id/tv_home_tab",
 			"useResourceId":false,
 			"order":10,
-			"runTime":120
+			"runTime":120,
+			"start":2,
+			"end":5
 		},
 		{
 			"id":7,
@@ -114,7 +118,9 @@
 			"refreshValue":"com.expflow.reading:id/txt_news_content",
 			"useResourceId":false,
 			"order":9,
-			"runTime":120
+			"runTime":120,
+			"start":5,
+			"end":9
 		},
 		{
 			"id":13,
@@ -150,7 +156,9 @@
 			"refreshValue":"刷新",
 			"useResourceId":true,
 			"order":2,
-			"runTime":60
+			"runTime":60,
+			"start":9,
+			"end":11
 		},
 		{
 			"id":14,
@@ -186,7 +194,9 @@
 			"refreshValue":"刷新",
 			"useResourceId":false,
 			"order":9,
-			"runTime":90
+			"runTime":90,
+			"start":11,
+			"end":14
 		},
 		{
 			"id":16,
@@ -222,7 +232,9 @@
 			"refreshValue":"首页",
 			"useResourceId":false,
 			"order":6,
-			"runTime":60
+			"runTime":60,
+			"start":14,
+			"end":16
 		},
 		{
 			"id":19,
@@ -258,7 +270,9 @@
 			"refreshValue":"刷新",
 			"useResourceId":false,
 			"order":5,
-			"runTime":60
+			"runTime":60,
+			"start":16,
+			"end":18
 		},
 		{
 			"id":21,
@@ -294,7 +308,9 @@
 			"refreshValue":"头条",
 			"useResourceId":false,
 			"order":5,
-			"runTime":60
+			"runTime":60,
+			"start":18,
+			"end":20
 		},
 		{
 			"id":25,
@@ -330,7 +346,9 @@
 			"refreshValue":"首页",
 			"useResourceId":false,
 			"order":1,
-			"runTime":60
+			"runTime":60,
+			"start":20,
+			"end":22
 		}
 		
 		
