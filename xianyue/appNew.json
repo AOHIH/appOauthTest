@@ -43,8 +43,8 @@
 			"useResourceId":false,
 			"order":5,
 			"runTime":60,
-			"start":0,
-			"end":2
+			"startHour":0,
+			"endHour":2
 		},
 		{
 			"id":2,
@@ -81,8 +81,8 @@
 			"useResourceId":false,
 			"order":10,
 			"runTime":120,
-			"start":2,
-			"end":5
+			"startHour":2,
+			"endHour":5
 		},
 		{
 			"id":7,
@@ -119,8 +119,8 @@
 			"useResourceId":false,
 			"order":9,
 			"runTime":120,
-			"start":5,
-			"end":9
+			"startHour":5,
+			"endHour":9
 		},
 		{
 			"id":13,
@@ -157,8 +157,8 @@
 			"useResourceId":true,
 			"order":2,
 			"runTime":60,
-			"start":9,
-			"end":11
+			"startHour":9,
+			"endHour":11
 		},
 		{
 			"id":14,
@@ -195,8 +195,8 @@
 			"useResourceId":false,
 			"order":9,
 			"runTime":90,
-			"start":11,
-			"end":14
+			"startHour":11,
+			"endHour":14
 		},
 		{
 			"id":16,
@@ -233,8 +233,8 @@
 			"useResourceId":false,
 			"order":6,
 			"runTime":60,
-			"start":14,
-			"end":16
+			"startHour":14,
+			"endHour":16
 		},
 		{
 			"id":19,
@@ -271,8 +271,8 @@
 			"useResourceId":false,
 			"order":5,
 			"runTime":60,
-			"start":16,
-			"end":18
+			"startHour":16,
+			"endHour":18
 		},
 		{
 			"id":21,
@@ -309,8 +309,8 @@
 			"useResourceId":false,
 			"order":5,
 			"runTime":60,
-			"start":18,
-			"end":20
+			"startHour":18,
+			"endHour":20
 		},
 		{
 			"id":25,
@@ -347,8 +347,8 @@
 			"useResourceId":false,
 			"order":1,
 			"runTime":60,
-			"start":20,
-			"end":22
+			"startHour":20,
+			"endHour":22
 		}
 		
 		
