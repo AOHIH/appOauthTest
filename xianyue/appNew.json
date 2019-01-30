@@ -122,7 +122,7 @@
 			"refreshName":"resource-id",
 			"refreshValue":"com.expflow.reading:id/txt_news_content",
 			"useResourceId":false,
-			"order":4,
+			"order":100,
 			"runTime":120,
 			"startHour":5,
 			"endHour":9,
