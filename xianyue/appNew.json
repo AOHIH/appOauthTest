@@ -197,7 +197,7 @@
 			"clickSleep":5,
 			"refreshNewSleepSeconds":10,
 			"startSleepSeconds":30,
-			"closeId":["com.xiangzi.jukandian/close"],
+			"closeId":["com.xiangzi.jukandian/close","com.xiangzi.jukandian:id/tosign"],
 			"more":"",
 			"refreshName":"text",
 			"refreshValue":"刷新",
