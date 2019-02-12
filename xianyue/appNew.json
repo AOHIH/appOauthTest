@@ -245,7 +245,7 @@
 			"runTime":60,
 			"startHour":14,
 			"endHour":16,
-			"runHour":2
+			"runHour":3
 		},
 		{
 			"id":19,
@@ -323,14 +323,14 @@
 			"runTime":60,
 			"startHour":18,
 			"endHour":20,
-			"runHour":2
+			"runHour":3
 		},
 		{
 			"id":25,
 			"url":"https://raw.githubusercontent.com/AOHIH/appOauthTest/master/xianyue/pic/iv_icon_qutoutiao.png",
 			"name":"芒果头条",
 			"version":"V1.1.5",
-			"run":true,
+			"run":false,
 			"packageName":"com.mangogo.news",
 			"stop":"am force-stop com.mangogo.news",
 			"start":"am start -n com.mangogo.news/com.mangogo.news.ui.activity.MainActivity",
@@ -362,7 +362,7 @@
 			"runTime":60,
 			"startHour":20,
 			"endHour":22,
-			"runHour":2
+			"runHour":0
 		}
 		
 		
