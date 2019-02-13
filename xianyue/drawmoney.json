@@ -8,9 +8,9 @@
 				"slp<__>20<__>睡眠",
 				"clk<__>com.jifen.qukan:id/zc<__>点击",
 				"cmd<__>input swipe 300 1100 300 700<__>上滑",
-				"cmd<__>com.jifen.qukan:id/zc<__>点击",
+				"clk<__>com.jifen.qukan:id/zc<__>点击",
 				"txt<__>200<__>输入",
-				"cmd<__>com.jifen.qukan:id/zc<__>点击",
+				"clk<__>com.jifen.qukan:id/zc<__>点击",
 				"cmd<__>am force-stop com.jifen.qukan<__>停止"
 			]
 		},
@@ -22,9 +22,9 @@
 				"slp<__>20<__>睡眠",
 				"clk<__>cn.youth.news:id/tv_comment<__>点击",
 				"cmd<__>input swipe 300 1100 300 700<__>上滑",
-				"cmd<__>cn.youth.news:id/tv_comment<__>点击",
+				"clk<__>cn.youth.news:id/tv_comment<__>点击",
 				"txt<__>200<__>输入",
-				"cmd<__>cn.youth.news:id/tv_comment<__>点击",
+				"clk<__>cn.youth.news:id/tv_comment<__>点击",
 				"cmd<__>am force-stop cn.youth.news<__>停止"
 			]
 		},
@@ -36,9 +36,9 @@
 				"slp<__>20<__>睡眠",
 				"clk<__>com.expflow.reading:id/IvAwardAnim<__>点击",
 				"cmd<__>input swipe 300 1100 300 700<__>上滑",
-				"cmd<__>com.expflow.reading:id/IvAwardAnim<__>点击",
+				"clk<__>com.expflow.reading:id/IvAwardAnim<__>点击",
 				"txt<__>200<__>输入",
-				"cmd<__>com.expflow.reading:id/IvAwardAnim<__>点击",
+				"clk<__>com.expflow.reading:id/IvAwardAnim<__>点击",
 				"cmd<__>am force-stop com.expflow.reading<__>停止"
 			]
 		},
@@ -50,9 +50,9 @@
 				"slp<__>20<__>睡眠",
 				"clk<__>com.tiantiankan.video:id/jf<__>点击",
 				"cmd<__>input swipe 300 1100 300 700<__>上滑",
-				"cmd<__>com.tiantiankan.video:id/jf<__>点击",
+				"clk<__>com.tiantiankan.video:id/jf<__>点击",
 				"txt<__>200<__>输入",
-				"cmd<__>com.tiantiankan.video:id/jf<__>点击",
+				"clk<__>com.tiantiankan.video:id/jf<__>点击",
 				"cmd<__>am force-stop com.tiantiankan.video<__>停止"
 			]
 		},
@@ -60,13 +60,14 @@
 			"name":"聚看点",
 			"sleepSeconds":2,
 			"command":[
-				"cmd<__>am start -n com.xiangzi.jukandian/com.xiangzi.jukandian.activity.V2WelcomeActivity<__>启动",
+				"cmd<__>am start -n com.xiangzi.jukandian/com.xiangzi.jukandian.activity.V2WelcomeActivity<__>执行",
 				"slp<__>20<__>睡眠",
-				"clk<__>com.xiangzi.jukandian:id/tosign<__>点击",
+				"clk<__>com.xiangzi.jukandian:id/tosign<__>点击元素",
 				"cmd<__>input swipe 300 1100 300 700<__>上滑",
-				"cmd<__>com.xiangzi.jukandian:id/tosign<__>点击",
-				"txt<__>200<__>输入",
-				"cmd<__>com.xiangzi.jukandian:id/tosign<__>点击",
+				"get<__>com.xiangzi.jukandian:id/tosign<__>查找元素值，存缓存",
+				"txt<__>cache_100<__>输入get的缓存值，转化为100倍数",
+				"txt<__>100<__>输入指定值",
+				"clk<__>com.xiangzi.jukandian:id/tosign<__>点击",
 				"cmd<__>am force-stop com.xiangzi.jukandian<__>停止"
 			]
 		},
@@ -78,9 +79,9 @@
 				"slp<__>20<__>睡眠",
 				"clk<__>com.netease.news.lite:id/u5<__>点击",
 				"cmd<__>input swipe 300 1100 300 700<__>上滑",
-				"cmd<__>com.netease.news.lite:id/u5<__>点击",
+				"clk<__>com.netease.news.lite:id/u5<__>点击",
 				"txt<__>200<__>输入",
-				"cmd<__>com.netease.news.lite:id/u5<__>点击",
+				"clk<__>com.netease.news.lite:id/u5<__>点击",
 				"cmd<__>am force-stop com.netease.news.lite<__>停止"
 			]
 		},
@@ -92,9 +93,9 @@
 				"slp<__>20<__>睡眠",
 				"clk<__>com.kuaixun.mgkd:id/progress<__>点击",
 				"cmd<__>input swipe 300 1100 300 700<__>上滑",
-				"cmd<__>com.kuaixun.mgkd:id/progress<__>点击",
+				"clk<__>com.kuaixun.mgkd:id/progress<__>点击",
 				"txt<__>200<__>输入",
-				"cmd<__>com.kuaixun.mgkd:id/progress<__>点击",
+				"clk<__>com.kuaixun.mgkd:id/progress<__>点击",
 				"cmd<__>am force-stop com.kuaixun.mgkd<__>停止"
 			]
 		},
@@ -106,9 +107,9 @@
 				"slp<__>20<__>睡眠",
 				"clk<__>me.toutiaoapp:id/title<__>点击",
 				"cmd<__>input swipe 300 1100 300 700<__>上滑",
-				"cmd<__>me.toutiaoapp:id/title<__>点击",
+				"clk<__>me.toutiaoapp:id/title<__>点击",
 				"txt<__>200<__>输入",
-				"cmd<__>me.toutiaoapp:id/title<__>点击",
+				"clk<__>me.toutiaoapp:id/title<__>点击",
 				"cmd<__>am force-stop me.toutiaoapp<__>停止"
 			]
 		}
