@@ -1,1 +1,116 @@
-appOauthTest1
+{
+	"drawapps":[
+		{
+			"name":"趣头条",
+			"sleepSeconds":2,
+			"closeId":[
+				"cmd<__>am start -n com.jifen.qukan/com.jifen.qkbase.main.MainActivity<__>启动",
+				"slp<__>20<__>睡眠",
+				"clk<__>com.jifen.qukan:id/zc<__>点击",
+				"cmd<__>input swipe 300 1100 300 700<__>上滑",
+				"cmd<__>com.jifen.qukan:id/zc<__>点击",
+				"txt<__>200<__>输入",
+				"cmd<__>com.jifen.qukan:id/zc<__>点击",
+				"cmd<__>am force-stop com.jifen.qukan<__>停止"
+			]
+		},
+		{	
+			"name":"中青看点",
+			"sleepSeconds":2,
+			"closeId":[
+				"cmd<__>am start -n cn.youth.news/com.weishang.wxrd.activity.SplashActivity<__>启动",
+				"slp<__>20<__>睡眠",
+				"clk<__>cn.youth.news:id/tv_comment<__>点击",
+				"cmd<__>input swipe 300 1100 300 700<__>上滑",
+				"cmd<__>cn.youth.news:id/tv_comment<__>点击",
+				"txt<__>200<__>输入",
+				"cmd<__>cn.youth.news:id/tv_comment<__>点击",
+				"cmd<__>am force-stop cn.youth.news<__>停止"
+			]
+		},
+		{
+			"name":"悦头条",
+			"sleepSeconds":2,
+			"closeId":[
+				"cmd<__>am start -n com.expflow.reading/com.expflow.reading.activity.SplashActivity<__>启动",
+				"slp<__>20<__>睡眠",
+				"clk<__>com.expflow.reading:id/IvAwardAnim<__>点击",
+				"cmd<__>input swipe 300 1100 300 700<__>上滑",
+				"cmd<__>com.expflow.reading:id/IvAwardAnim<__>点击",
+				"txt<__>200<__>输入",
+				"cmd<__>com.expflow.reading:id/IvAwardAnim<__>点击",
+				"cmd<__>am force-stop com.expflow.reading<__>停止"
+			]
+		},
+		{	
+			"name":"天天看视频",
+			"sleepSeconds":2,
+			"closeId":[
+				"cmd<__>am start -n com.tiantiankan.video/com.tiantiankan.video.home.ui.MainHomeActivity<__>启动",
+				"slp<__>20<__>睡眠",
+				"clk<__>com.tiantiankan.video:id/jf<__>点击",
+				"cmd<__>input swipe 300 1100 300 700<__>上滑",
+				"cmd<__>com.tiantiankan.video:id/jf<__>点击",
+				"txt<__>200<__>输入",
+				"cmd<__>com.tiantiankan.video:id/jf<__>点击",
+				"cmd<__>am force-stop com.tiantiankan.video<__>停止"
+			]
+		},
+		{
+			"name":"聚看点",
+			"sleepSeconds":2,
+			"closeId":[
+				"cmd<__>am start -n com.xiangzi.jukandian/com.xiangzi.jukandian.activity.V2WelcomeActivity<__>启动",
+				"slp<__>20<__>睡眠",
+				"clk<__>com.xiangzi.jukandian:id/tosign<__>点击",
+				"cmd<__>input swipe 300 1100 300 700<__>上滑",
+				"cmd<__>com.xiangzi.jukandian:id/tosign<__>点击",
+				"txt<__>200<__>输入",
+				"cmd<__>com.xiangzi.jukandian:id/tosign<__>点击",
+				"cmd<__>am force-stop com.xiangzi.jukandian<__>停止"
+			]
+		},
+		{	
+			"name":"网易新闻",
+			"sleepSeconds":2,
+			"closeId":[
+				"cmd<__>am start -n com.netease.news.lite/com.netease.nr.phone.main.MainActivity<__>启动",
+				"slp<__>20<__>睡眠",
+				"clk<__>com.netease.news.lite:id/u5<__>点击",
+				"cmd<__>input swipe 300 1100 300 700<__>上滑",
+				"cmd<__>com.netease.news.lite:id/u5<__>点击",
+				"txt<__>200<__>输入",
+				"cmd<__>com.netease.news.lite:id/u5<__>点击",
+				"cmd<__>am force-stop com.netease.news.lite<__>停止"
+			]
+		},
+		{
+			"name":"芒果看点",
+			"sleepSeconds":2,
+			"closeId":[
+				"cmd<__>am start -n com.kuaixun.mgkd/com.kuaixun.mgkd.module.main.start.StartActivity<__>启动",
+				"slp<__>20<__>睡眠",
+				"clk<__>com.kuaixun.mgkd:id/progress<__>点击",
+				"cmd<__>input swipe 300 1100 300 700<__>上滑",
+				"cmd<__>com.kuaixun.mgkd:id/progress<__>点击",
+				"txt<__>200<__>输入",
+				"cmd<__>com.kuaixun.mgkd:id/progress<__>点击",
+				"cmd<__>am force-stop com.kuaixun.mgkd<__>停止"
+			]
+		},
+		{
+			"name":"米赚头条",
+			"sleepSeconds":2,
+			"closeId":[
+				"cmd<__>am start -n me.toutiaoapp/me.toutiaoapp.ui.activity.CoverActivity<__>启动",
+				"slp<__>20<__>睡眠",
+				"clk<__>me.toutiaoapp:id/title<__>点击",
+				"cmd<__>input swipe 300 1100 300 700<__>上滑",
+				"cmd<__>me.toutiaoapp:id/title<__>点击",
+				"txt<__>200<__>输入",
+				"cmd<__>me.toutiaoapp:id/title<__>点击",
+				"cmd<__>am force-stop me.toutiaoapp<__>停止"
+			]
+		}
+	]
+}
