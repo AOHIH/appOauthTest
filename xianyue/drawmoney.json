@@ -3,7 +3,7 @@
 		{
 			"name":"趣头条",
 			"sleepSeconds":2,
-			"closeId":[
+			"command":[
 				"cmd<__>am start -n com.jifen.qukan/com.jifen.qkbase.main.MainActivity<__>启动",
 				"slp<__>20<__>睡眠",
 				"clk<__>com.jifen.qukan:id/zc<__>点击",
@@ -17,7 +17,7 @@
 		{	
 			"name":"中青看点",
 			"sleepSeconds":2,
-			"closeId":[
+			"command":[
 				"cmd<__>am start -n cn.youth.news/com.weishang.wxrd.activity.SplashActivity<__>启动",
 				"slp<__>20<__>睡眠",
 				"clk<__>cn.youth.news:id/tv_comment<__>点击",
@@ -31,7 +31,7 @@
 		{
 			"name":"悦头条",
 			"sleepSeconds":2,
-			"closeId":[
+			"command":[
 				"cmd<__>am start -n com.expflow.reading/com.expflow.reading.activity.SplashActivity<__>启动",
 				"slp<__>20<__>睡眠",
 				"clk<__>com.expflow.reading:id/IvAwardAnim<__>点击",
@@ -45,7 +45,7 @@
 		{	
 			"name":"天天看视频",
 			"sleepSeconds":2,
-			"closeId":[
+			"command":[
 				"cmd<__>am start -n com.tiantiankan.video/com.tiantiankan.video.home.ui.MainHomeActivity<__>启动",
 				"slp<__>20<__>睡眠",
 				"clk<__>com.tiantiankan.video:id/jf<__>点击",
@@ -59,7 +59,7 @@
 		{
 			"name":"聚看点",
 			"sleepSeconds":2,
-			"closeId":[
+			"command":[
 				"cmd<__>am start -n com.xiangzi.jukandian/com.xiangzi.jukandian.activity.V2WelcomeActivity<__>启动",
 				"slp<__>20<__>睡眠",
 				"clk<__>com.xiangzi.jukandian:id/tosign<__>点击",
@@ -73,7 +73,7 @@
 		{	
 			"name":"网易新闻",
 			"sleepSeconds":2,
-			"closeId":[
+			"command":[
 				"cmd<__>am start -n com.netease.news.lite/com.netease.nr.phone.main.MainActivity<__>启动",
 				"slp<__>20<__>睡眠",
 				"clk<__>com.netease.news.lite:id/u5<__>点击",
@@ -87,7 +87,7 @@
 		{
 			"name":"芒果看点",
 			"sleepSeconds":2,
-			"closeId":[
+			"command":[
 				"cmd<__>am start -n com.kuaixun.mgkd/com.kuaixun.mgkd.module.main.start.StartActivity<__>启动",
 				"slp<__>20<__>睡眠",
 				"clk<__>com.kuaixun.mgkd:id/progress<__>点击",
@@ -101,7 +101,7 @@
 		{
 			"name":"米赚头条",
 			"sleepSeconds":2,
-			"closeId":[
+			"command":[
 				"cmd<__>am start -n me.toutiaoapp/me.toutiaoapp.ui.activity.CoverActivity<__>启动",
 				"slp<__>20<__>睡眠",
 				"clk<__>me.toutiaoapp:id/title<__>点击",
