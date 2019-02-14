@@ -23,7 +23,7 @@
 				"slp<__>8<__>睡眠",
 				"cmd<__>input tap 600 550<__>点击",
 				"slp<__>4<__>睡眠",
-				"cmd<__>input tap 900 950<__>点击",
+				"cmd<__>input tap 300 1100<__>点击",
 				"cmd<__>input tap 600 1800<__>点击",
 				"cmd<__>am force-stop com.netease.news.lite<__>停止"
 			]
