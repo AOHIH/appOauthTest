@@ -1,6 +1,24 @@
 {
 	"drawapps":[
 		{
+			"name":"聚看点__只能微信提现_累计超过50元_一个帐号绑定一个身份证",
+			"sleepSeconds":2,
+			"command":[
+				"cmd<__>am start -n com.xiangzi.jukandian/com.xiangzi.jukandian.activity.V2WelcomeActivity<__>执行",
+				"slp<__>20<__>睡眠",
+				"clk<__>我的<__>点击",
+				"slp<__>8<__>睡眠",
+				"clk<__>com.xiangzi.jukandian:id/mine_starlert_close<__>点击关闭弹窗广告",
+				"clk<__>钱包/提现<__>点击",
+				"slp<__>6<__>睡眠",
+				"cmd<__>input tap 1000 500<__>点击",
+				"slp<__>4<__>睡眠",
+				"cmd<__>input tap 900 600<__>点击",
+				"cmd<__>input tap 600 1800<__>点击",
+				"cmd<__>am force-stop com.xiangzi.jukandian<__>停止"
+			]
+		},
+		{
 			"name":"悦头条_可以支付宝_但提现元素获取不到",
 			"sleepSeconds":2,
 			"command":[
@@ -70,25 +88,6 @@
 				"cmd<__>input tap 900 600<__>点击",
 				"cmd<__>input tap 600 1800<__>点击",
 				"cmd<__>am force-stop cn.youth.news<__>停止"
-			]
-		},
-		{
-			"name":"聚看点__只能微信提现_累计超过50元_一个帐号绑定一个身份证",
-			"sleepSeconds":2,
-			"command":[
-				"cmd<__>am start -n com.xiangzi.jukandian/com.xiangzi.jukandian.activity.V2WelcomeActivity<__>执行",
-				"slp<__>20<__>睡眠",
-				"clk<__>我的<__>点击",
-				"slp<__>8<__>睡眠",
-				"clk<__>com.xiangzi.jukandian:id/mine_starlert_close<__>点击关闭弹窗广告",
-				"clk<__>钱包/提现<__>点击",
-				"slp<__>6<__>睡眠",
-				"clk<__>提现<__>点击",
-				"slp<__>2<__>睡眠",
-				"cmd<__>input tap 1000 800<__>点击",
-				"slp<__>4<__>睡眠",
-				"cmd<__>input tap 600 1800<__>点击",
-				"cmd<__>am force-stop com.xiangzi.jukandian<__>停止"
 			]
 		},
 		{	
@@ -181,6 +180,13 @@
 				"clk<__>确定<__>点击",
 				"clk<__>知道了<__>点击",
 				"cmd<__>am force-stop me.toutiaoapp<__>停止"
+			]
+		},
+		{
+			"name":"drawmoney关闭",
+			"sleepSeconds":2,
+			"command":[
+				"cmd<__>am force-stop ge.anle.xianyuedrawmoney<__>停止"
 			]
 		}
 	]
