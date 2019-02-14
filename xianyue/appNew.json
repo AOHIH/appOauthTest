@@ -89,7 +89,7 @@
 			"runTime":120,
 			"startHour":2,
 			"endHour":5,
-			"runHour":3
+			"runHour":2.5
 		},
 		{
 			"id":7,
@@ -128,7 +128,7 @@
 			"runTime":120,
 			"startHour":5,
 			"endHour":9,
-			"runHour":4
+			"runHour":5
 		},
 		{
 			"id":13,
@@ -167,7 +167,7 @@
 			"runTime":60,
 			"startHour":9,
 			"endHour":11,
-			"runHour":2
+			"runHour":1
 		},
 		{
 			"id":14,
@@ -206,7 +206,7 @@
 			"runTime":90,
 			"startHour":11,
 			"endHour":14,
-			"runHour":3
+			"runHour":3.5
 		},
 		{
 			"id":16,
@@ -245,7 +245,7 @@
 			"runTime":60,
 			"startHour":14,
 			"endHour":16,
-			"runHour":3
+			"runHour":3.5
 		},
 		{
 			"id":19,
@@ -284,7 +284,7 @@
 			"runTime":60,
 			"startHour":16,
 			"endHour":18,
-			"runHour":2
+			"runHour":3.5
 		},
 		{
 			"id":21,
@@ -323,7 +323,7 @@
 			"runTime":60,
 			"startHour":18,
 			"endHour":20,
-			"runHour":3
+			"runHour":1
 		},
 		{
 			"id":25,
