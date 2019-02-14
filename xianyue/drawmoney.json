@@ -1,36 +1,27 @@
 {
 	"drawapps":[
-		{
-			"name":"聚看点——累计超过50元",
-			"sleepSeconds":2,
-			"command":[
-				"cmd<__>am start -n com.xiangzi.jukandian/com.xiangzi.jukandian.activity.V2WelcomeActivity<__>执行",
-				"slp<__>20<__>睡眠",
-				"clk<__>我的<__>点击",
-				"slp<__>8<__>睡眠",
-				"clk<__>com.xiangzi.jukandian:id/mine_starlert_close<__>点击关闭弹窗广告",
-				"clk<__>钱包/提现<__>点击",
-				"slp<__>6<__>睡眠",
-				"clk<__>提现<__>点击",
-				"slp<__>2<__>睡眠",
-				"cmd<__>input tap 1000 500<__>点击",
-				"slp<__>4<__>睡眠",
-				"cmd<__>input tap 900 600<__>点击",
-				"cmd<__>input tap 600 1800<__>点击",
-				"cmd<__>am force-stop com.xiangzi.jukandian<__>停止"
-			]
-		},
 		{	
 			"name":"网易新闻",
 			"sleepSeconds":2,
 			"command":[
 				"cmd<__>am start -n com.netease.news.lite/com.netease.nr.phone.main.MainActivity<__>启动",
 				"slp<__>20<__>睡眠",
-				"clk<__>com.netease.news.lite:id/u5<__>点击",
-				"cmd<__>input swipe 300 1100 300 700<__>上滑",
-				"clk<__>com.netease.news.lite:id/u5<__>点击",
-				"txt<__>200<__>输入",
-				"clk<__>com.netease.news.lite:id/u5<__>点击",
+				"clk<__>我<__>点击",
+				"slp<__>8<__>睡眠",
+				"clk<__>任务列表<__>点击去签到",
+				"slp<__>8<__>睡眠",
+				"cmd<__>input tap 600 400<__>点击签到",
+				"cmd<__>input keyevent 4<__>点击返回",
+				"slp<__>2<__>睡眠",
+				"cmd<__>input keyevent 4<__>点击返回",
+				"clk<__>提现<__>点击",
+				"slp<__>8<__>睡眠",
+				"clk<__>提现<__>点击",
+				"slp<__>4<__>睡眠",
+				"cmd<__>input tap 600 550<__>点击",
+				"slp<__>4<__>睡眠",
+				"cmd<__>input tap 900 950<__>点击",
+				"cmd<__>input tap 600 1800<__>点击",
 				"cmd<__>am force-stop com.netease.news.lite<__>停止"
 			]
 		},
@@ -110,6 +101,26 @@
 				"slp<__>2<__>睡眠",
 				"clk<__>立即支付<__>点击提现",
 				"cmd<__>am force-stop com.expflow.reading<__>停止"
+			]
+		},
+		{
+			"name":"聚看点——累计超过50元_一个帐号绑定一个身份证",
+			"sleepSeconds":2,
+			"command":[
+				"cmd<__>am start -n com.xiangzi.jukandian/com.xiangzi.jukandian.activity.V2WelcomeActivity<__>执行",
+				"slp<__>20<__>睡眠",
+				"clk<__>我的<__>点击",
+				"slp<__>8<__>睡眠",
+				"clk<__>com.xiangzi.jukandian:id/mine_starlert_close<__>点击关闭弹窗广告",
+				"clk<__>钱包/提现<__>点击",
+				"slp<__>6<__>睡眠",
+				"clk<__>提现<__>点击",
+				"slp<__>2<__>睡眠",
+				"cmd<__>input tap 1000 500<__>点击",
+				"slp<__>4<__>睡眠",
+				"cmd<__>input tap 900 600<__>点击",
+				"cmd<__>input tap 600 1800<__>点击",
+				"cmd<__>am force-stop com.xiangzi.jukandian<__>停止"
 			]
 		},
 		{
