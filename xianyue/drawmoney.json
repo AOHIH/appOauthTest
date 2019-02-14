@@ -1,47 +1,22 @@
 {
 	"drawapps":[
 		{
-			"name":"悦头条",
-			"sleepSeconds":2,
-			"command":[
-				"cmd<__>am start -n com.expflow.reading/com.expflow.reading.activity.SplashActivity<__>启动",
-				"slp<__>20<__>睡眠",
-				"clk<__>我的<__>点击",
-				"slp<__>8<__>睡眠",
-				"clk<__>提现中心<__>点击去签到",
-				"slp<__>8<__>睡眠",
-				"clk<__>10元<__>点击提现10元",
-				"slp<__>2<__>睡眠",
-				"clk<__>立即支付<__>点击提现",
-				"cmd<__>am force-stop com.expflow.reading<__>停止"
-			]
-		},
-		{	
-			"name":"天天看视频",
-			"sleepSeconds":2,
-			"command":[
-				"cmd<__>am start -n com.tiantiankan.video/com.tiantiankan.video.home.ui.MainHomeActivity<__>启动",
-				"slp<__>20<__>睡眠",
-				"clk<__>com.tiantiankan.video:id/jf<__>点击",
-				"cmd<__>input swipe 300 1100 300 700<__>上滑",
-				"clk<__>com.tiantiankan.video:id/jf<__>点击",
-				"txt<__>200<__>输入",
-				"clk<__>com.tiantiankan.video:id/jf<__>点击",
-				"cmd<__>am force-stop com.tiantiankan.video<__>停止"
-			]
-		},
-		{
-			"name":"聚看点",
+			"name":"聚看点——累计超过50元",
 			"sleepSeconds":2,
 			"command":[
 				"cmd<__>am start -n com.xiangzi.jukandian/com.xiangzi.jukandian.activity.V2WelcomeActivity<__>执行",
 				"slp<__>20<__>睡眠",
-				"clk<__>com.xiangzi.jukandian:id/tosign<__>点击元素",
-				"cmd<__>input swipe 300 1100 300 700<__>上滑",
-				"get<__>com.xiangzi.jukandian:id/tosign<__>查找元素值，存缓存",
-				"txt<__>cache_100<__>输入get的缓存值，转化为100倍数",
-				"txt<__>100<__>输入指定值",
-				"clk<__>com.xiangzi.jukandian:id/tosign<__>点击",
+				"clk<__>我的<__>点击",
+				"slp<__>8<__>睡眠",
+				"clk<__>com.xiangzi.jukandian:id/mine_starlert_close<__>点击关闭弹窗广告",
+				"clk<__>钱包/提现<__>点击",
+				"slp<__>6<__>睡眠",
+				"clk<__>提现<__>点击",
+				"slp<__>2<__>睡眠",
+				"cmd<__>input tap 1000 500<__>点击",
+				"slp<__>4<__>睡眠",
+				"cmd<__>input tap 900 600<__>点击",
+				"cmd<__>input tap 600 1800<__>点击",
 				"cmd<__>am force-stop com.xiangzi.jukandian<__>停止"
 			]
 		},
@@ -119,6 +94,22 @@
 				"cmd<__>input tap 900 600<__>点击",
 				"cmd<__>input tap 600 1800<__>点击",
 				"cmd<__>am force-stop cn.youth.news<__>停止"
+			]
+		},
+		{
+			"name":"悦头条",
+			"sleepSeconds":2,
+			"command":[
+				"cmd<__>am start -n com.expflow.reading/com.expflow.reading.activity.SplashActivity<__>启动",
+				"slp<__>20<__>睡眠",
+				"clk<__>我的<__>点击",
+				"slp<__>8<__>睡眠",
+				"clk<__>提现中心<__>点击去签到",
+				"slp<__>8<__>睡眠",
+				"clk<__>10元<__>点击提现10元",
+				"slp<__>2<__>睡眠",
+				"clk<__>立即支付<__>点击提现",
+				"cmd<__>am force-stop com.expflow.reading<__>停止"
 			]
 		},
 		{
