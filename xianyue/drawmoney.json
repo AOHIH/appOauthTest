@@ -14,7 +14,7 @@
 				"slp<__>2<__>睡眠",
 				"get<__>com.kuaixun.mgkd:id/tv_total_num<__>获取",
 				"clk<__>com.kuaixun.mgkd:id/et_convert<__>点击",
-				"txt<__>100<__>输入cache_100",
+				"txt<__>cache_100<__>输入cache_100",
 				"cmd<__>input keyevent 4<__>点击返回",
 				"clk<__>立即兑换<__>点击",
 				"cmd<__>input keyevent 4<__>点击返回",
