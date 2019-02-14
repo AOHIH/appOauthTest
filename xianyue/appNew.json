@@ -135,7 +135,7 @@
 			"url":"https://raw.githubusercontent.com/AOHIH/appOauthTest/master/xianyue/pic/iv_icon_tiantiankanship.jpg",
 			"name":"天天看视频",
 			"version":"V1.0.7.2",
-			"run":true,
+			"run":false,
 			"packageName":"com.tiantiankan.video",
 			"stop":"am force-stop com.tiantiankan.video",
 			"start":"am start -n com.tiantiankan.video/com.tiantiankan.video.home.ui.MainHomeActivity",
@@ -167,7 +167,7 @@
 			"runTime":60,
 			"startHour":9,
 			"endHour":11,
-			"runHour":1
+			"runHour":0
 		},
 		{
 			"id":14,
@@ -323,7 +323,7 @@
 			"runTime":60,
 			"startHour":18,
 			"endHour":20,
-			"runHour":1
+			"runHour":2
 		},
 		{
 			"id":25,
