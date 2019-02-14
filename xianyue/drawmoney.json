@@ -1,40 +1,26 @@
 {
 	"drawapps":[
-		{
-			"name":"趣头条",
-			"sleepSeconds":2,
-			"command":[
-				"cmd<__>am start -n com.jifen.qukan/com.jifen.qkbase.main.MainActivity<__>启动",
-				"slp<__>20<__>睡眠",
-				"clk<__>我的<__>点击",
-				"slp<__>8<__>睡眠",
-				"clk<__>com.jifen.qukan:id/a18<__>点击关闭弹窗广告",
-				"clk<__>com.jifen.qukan:id/a1_<__>点击关闭弹窗广告",
-				"clk<__>com.jifen.qukan:id/ahv<__>点击去签到",
-				"slp<__>2<__>睡眠",
-				"clk<__>我的<__>点击",
-				"slp<__>2<__>睡眠",
-				"clk<__>com.jifen.qukan:id/a18<__>点击关闭弹窗广告",
-				"clk<__>com.jifen.qukan:id/a1_<__>点击关闭弹窗广告",
-				"clk<__>提现兑换<__>点击",
-				"slp<__>4<__>睡眠",
-				"cmd<__>input tap 600 600<__>点击",
-				"cmd<__>input tap 600 900<__>点击",
-				"cmd<__>input tap 600 1800<__>点击",
-				"cmd<__>am force-stop com.jifen.qukan<__>停止"
-			]
-		},
 		{	
 			"name":"中青看点",
 			"sleepSeconds":2,
 			"command":[
 				"cmd<__>am start -n cn.youth.news/com.weishang.wxrd.activity.SplashActivity<__>启动",
 				"slp<__>20<__>睡眠",
-				"clk<__>cn.youth.news:id/tv_comment<__>点击",
-				"cmd<__>input swipe 300 1100 300 700<__>上滑",
-				"clk<__>cn.youth.news:id/tv_comment<__>点击",
-				"txt<__>200<__>输入",
-				"clk<__>cn.youth.news:id/tv_comment<__>点击",
+				"clk<__>我的<__>点击",
+				"slp<__>8<__>睡眠",
+				"clk<__>任务中心<__>点击去签到",
+				"slp<__>8<__>睡眠",
+				"cmd<__>input tap 600 600<__>点击签到",
+				"cmd<__>input keyevent 4<__>点击返回",
+				"slp<__>2<__>睡眠",
+				"cmd<__>input keyevent 4<__>点击返回",
+				"clk<__>我的<__>点击",
+				"slp<__>2<__>睡眠",
+				"clk<__>兑换提现<__>点击",
+				"slp<__>8<__>睡眠",
+				"cmd<__>input tap 500 500<__>点击",
+				"cmd<__>input tap 900 600<__>点击",
+				"cmd<__>input tap 600 1800<__>点击",
 				"cmd<__>am force-stop cn.youth.news<__>停止"
 			]
 		},
@@ -107,6 +93,30 @@
 				"txt<__>200<__>输入",
 				"clk<__>com.kuaixun.mgkd:id/progress<__>点击",
 				"cmd<__>am force-stop com.kuaixun.mgkd<__>停止"
+			]
+		},
+		{
+			"name":"趣头条",
+			"sleepSeconds":2,
+			"command":[
+				"cmd<__>am start -n com.jifen.qukan/com.jifen.qkbase.main.MainActivity<__>启动",
+				"slp<__>20<__>睡眠",
+				"clk<__>我的<__>点击",
+				"slp<__>8<__>睡眠",
+				"clk<__>com.jifen.qukan:id/a18<__>点击关闭弹窗广告",
+				"clk<__>com.jifen.qukan:id/a1_<__>点击关闭弹窗广告",
+				"clk<__>com.jifen.qukan:id/ahv<__>点击去签到",
+				"slp<__>2<__>睡眠",
+				"clk<__>我的<__>点击",
+				"slp<__>2<__>睡眠",
+				"clk<__>com.jifen.qukan:id/a18<__>点击关闭弹窗广告",
+				"clk<__>com.jifen.qukan:id/a1_<__>点击关闭弹窗广告",
+				"clk<__>提现兑换<__>点击",
+				"slp<__>4<__>睡眠",
+				"cmd<__>input tap 600 600<__>点击",
+				"cmd<__>input tap 600 900<__>点击",
+				"cmd<__>input tap 600 1800<__>点击",
+				"cmd<__>am force-stop com.jifen.qukan<__>停止"
 			]
 		},
 		{
