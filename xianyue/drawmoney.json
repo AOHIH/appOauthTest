@@ -1,6 +1,30 @@
 {
 	"drawapps":[
 		{
+			"name":"悦头条_可以支付宝_但提现元素获取不到",
+			"sleepSeconds":2,
+			"command":[
+				"cmd<__>am start -n com.expflow.reading/com.expflow.reading.activity.SplashActivity<__>启动",
+				"slp<__>20<__>睡眠",
+				"clk<__>任务<__>点击去签到",
+				"slp<__>8<__>睡眠",
+				"clk<__>领取奖励<__>点击",
+				"clk<__>领取奖励<__>点击",
+				"clk<__>可签到<__>点击",
+				"cmd<__>input keyevent 4<__>点击返回",
+				"slp<__>2<__>睡眠",
+				"cmd<__>input keyevent 4<__>点击返回",
+				"clk<__>我的<__>点击",
+				"slp<__>8<__>睡眠",
+				"clk<__>提现中心<__>点击去签到",
+				"slp<__>8<__>睡眠",
+				"clk<__>10元<__>点击提现10元",
+				"slp<__>2<__>睡眠",
+				"clk<__>立即支付<__>点击提现",
+				"cmd<__>am force-stop com.expflow.reading<__>停止"
+			]
+		},
+		{
 			"name":"趣头条_可以支付宝_但提现元素获取不到",
 			"sleepSeconds":2,
 			"command":[
@@ -46,22 +70,6 @@
 				"cmd<__>input tap 900 600<__>点击",
 				"cmd<__>input tap 600 1800<__>点击",
 				"cmd<__>am force-stop cn.youth.news<__>停止"
-			]
-		},
-		{
-			"name":"悦头条_可以支付宝_但提现元素获取不到",
-			"sleepSeconds":2,
-			"command":[
-				"cmd<__>am start -n com.expflow.reading/com.expflow.reading.activity.SplashActivity<__>启动",
-				"slp<__>20<__>睡眠",
-				"clk<__>我的<__>点击",
-				"slp<__>8<__>睡眠",
-				"clk<__>提现中心<__>点击去签到",
-				"slp<__>8<__>睡眠",
-				"clk<__>10元<__>点击提现10元",
-				"slp<__>2<__>睡眠",
-				"clk<__>立即支付<__>点击提现",
-				"cmd<__>am force-stop com.expflow.reading<__>停止"
 			]
 		},
 		{
