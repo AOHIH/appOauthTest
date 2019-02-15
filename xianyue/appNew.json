@@ -12,6 +12,7 @@
 	"macCmd":"cat /sys/class/net/wlan0/address",
 	"test":false,
 	"testId":null,
+	"startRunTime":20,
 	"apps":[
 		{
 			"id":1,
@@ -50,7 +51,7 @@
 			"runTime":60,
 			"startHour":0,
 			"endHour":2,
-			"runHour":2
+			"runHour":2.5
 		},
 		{
 			"id":2,
@@ -323,7 +324,7 @@
 			"runTime":60,
 			"startHour":18,
 			"endHour":20,
-			"runHour":2
+			"runHour":2.5
 		},
 		{
 			"id":25,
