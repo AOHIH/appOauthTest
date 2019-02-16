@@ -11,7 +11,7 @@
 	"macStagger":true,
 	"macCmd":"cat /sys/class/net/wlan0/address",
 	"test":true,
-	"testId":2,
+	"testId":7,
 	"startRunTime":20,
 	"apps":[
 		{
