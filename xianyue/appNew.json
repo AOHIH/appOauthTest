@@ -311,7 +311,7 @@
 			"stop":"am force-stop me.toutiaoapp",
 			"start":"am start -n me.toutiaoapp/me.toutiaoapp.ui.activity.CoverActivity",
 			"dumpsys":"dumpsys window | grep mCurrentFocus",
-			"back":"input keyevent 4\ninput keyevent 4",
+			"back":"input keyevent 4",
 			"tap":"input tap",
 			"swipeUp":"input keyevent 20",
 			"swipeDown":"input keyevent 19",
