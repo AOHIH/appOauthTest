@@ -279,7 +279,7 @@
 			"resourceId":"com.kuaixun.mgkd:id/tv_title",
 			"newsId":"com.kuaixun.mgkd:id/tv_info",
 			"others":["热点","广告","置顶","百度","点击刷新"],
-			"ins":["com.kuaixun.mgkd:id/btn_comment","com.kuaixun.mgkd:id/progress","我也来说两句"],
+			"ins":["com.kuaixun.mgkd:id/progress"],
 			"upCount":15,
 			"downCount":14,
 			"loopCount":1,
