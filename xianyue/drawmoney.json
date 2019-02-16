@@ -1,20 +1,6 @@
 {
 	"drawapps":[
 		{
-			"name":"306超级root优化",
-			"sleepSeconds":2,
-			"command":[
-				"cmd<__>am start -n com.qihoo.permmgr/com.qihoo.root.ui.MainActivity<__>执行",
-				"slp<__>20<__>睡眠",
-				"clk<__>清理加速<__>点击",
-				"slp<__>60<__>睡眠",
-				"clk<__>一键清理<__>点击关闭弹窗广告",
-				"clk<__>钱包/提现<__>点击",
-				"slp<__>60<__>睡眠",
-				"cmd<__>am force-stop com.qihoo.permmgr<__>停止"
-			]
-		},
-		{
 			"name":"聚看点__只能微信提现_累计超过50元_一个帐号绑定一个身份证",
 			"sleepSeconds":2,
 			"command":[
@@ -194,6 +180,19 @@
 				"clk<__>确定<__>点击",
 				"clk<__>知道了<__>点击",
 				"cmd<__>am force-stop me.toutiaoapp<__>停止"
+			]
+		},
+		{
+			"name":"306超级root优化",
+			"sleepSeconds":2,
+			"command":[
+				"cmd<__>am start -n com.qihoo.permmgr/com.qihoo.root.ui.MainActivity<__>执行",
+				"slp<__>20<__>睡眠",
+				"clk<__>清理加速<__>点击",
+				"slp<__>60<__>睡眠",
+				"clk<__>一键清理<__>点击关闭弹窗广告",
+				"slp<__>60<__>睡眠",
+				"cmd<__>am force-stop com.qihoo.permmgr<__>停止"
 			]
 		},
 		{
