@@ -184,7 +184,7 @@
 			"stop":"am force-stop com.xiangzi.jukandian",
 			"start":"am start -n com.xiangzi.jukandian/com.xiangzi.jukandian.activity.V2WelcomeActivity",
 			"dumpsys":"dumpsys window | grep mCurrentFocus",
-			"back":"input keyevent 4",
+			"back":"input keyevent 4\ninput keyevent 4",
 			"tap":"input tap",
 			"swipeUp":"input swipe 300 1100 300 700 100",
 			"swipeDown":"input swipe 300 700 300 1100 100",
