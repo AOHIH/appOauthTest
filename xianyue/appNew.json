@@ -53,7 +53,7 @@
 			"runTime":60,
 			"startHour":0,
 			"endHour":2,
-			"runHour":2.5
+			"runHour":2
 		},
 		{
 			"id":2,
@@ -94,7 +94,7 @@
 			"runTime":120,
 			"startHour":2,
 			"endHour":5,
-			"runHour":2.5
+			"runHour":3
 		},
 		{
 			"id":7,
